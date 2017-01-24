@@ -5,7 +5,7 @@ function pa_include_top_pages_stats( $current, $top_page_stats) {
 ?>
   	<div class="analytify_general_status analytify_status_box_wraper">
       	<div class="analytify_status_header">
-        	<h3><?php echo _e( 'Top pages by views.', 'wp-analytify'); ?></h3>
+        	<h3><?php  _e( 'Top pages by views.', 'wp-analytify' ); ?></h3>
       	</div>
       	<div class="analytify_status_body">
 		  	<table class="analytify_data_tables wp_analytify_paginated">

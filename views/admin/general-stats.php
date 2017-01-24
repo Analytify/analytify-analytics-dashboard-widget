@@ -8,7 +8,7 @@ function pa_include_general( $current, $stats) {
 ?>
     <div class="analytify_general_status analytify_status_box_wraper">
       <div class="analytify_status_header">
-        <h3><?php echo _e( 'General Statistics', 'wp-analytify'); ?></h3>
+        <h3><?php _e( 'General Statistics', 'wp-analytify'); ?></h3>
       </div>
 
       <div class="analytify_status_body">
@@ -130,7 +130,7 @@ function pa_include_general( $current, $stats) {
 
       <div class="analytify_status_footer">
         <span class="analytify_info_stats">
-          <?php echo _e('Did you know that total time on your site is' , 'wp-analytify')?>
+          <?php  _e('Did you know that total time on your site is' , 'wp-analytify')?>
           <?php
               echo $current->pa_pretty_time($stats->totalsForAllResults['ga:sessionDuration']);
           ?>

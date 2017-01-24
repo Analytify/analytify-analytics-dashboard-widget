@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Developer URI: https://analytify.io/
  * License: GPLv2+
  * Text Domain: wp-analytify
- * Domain Path: /languages/
+ * Domain Path: /languages
  */
 
 define( 'ANALYTIFY_DASHBOARD_VERSION', '1.0.0' );
