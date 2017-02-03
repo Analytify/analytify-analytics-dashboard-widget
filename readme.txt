@@ -12,11 +12,30 @@ Google Analytics Dashboard widget is a Free Add-on for Google Analytics by Analy
 
 == Description ==
 
-[Google Analytics Dashboard](http://analytify.io/details) widget by Analytify is a dashboard widget which provides Stats from Country, Referrers, Social media, General stats, Top pages and Top keywords in a widget at WordPress dashboard along with other widgets. This is a handy widget and is requested by users who wants to see their stats in dashboard as a widget. Though Analytify has its own [dashboard](http://analytify.io/details) for Analytics.
+[Google Analytics Dashboard](http://analytify.io/details) widget by Analytify is a dashboard widget which provides Stats from Country, Referrers, Social media, General stats, Top pages and Top keywords in a widget at WordPress dashboard along with other widgets. This is a handy widget and is requested by users who wants to see their stats in dashboard as a widget. Though Analytify has its own [dashboard](http://analytify.io/details) for Google Analytics.
 
-It is a plug and play add-on. No settings needed as all settings should have already setup from Analytify settings page.
+[Google Analytics Dashboard](http://analytify.io/details) widget by Analytify is a **FREE**  plug and play add-on. No settings needed as all, Add-on settings should have already setup from Analytify settings page.
 
-**Google Analytics Premium Partner** - [Read](https://www.google.com/analytics/partners/company/5179388639313920/gadp/5629499534213120/app/5707702298738688/listing/5639274879778816) what Google is saying about us.
+>
+>**Google Analytics Premium Partner** - [Read](https://www.google.com/analytics/partners/company/5179388639313920/gadp/5629499534213120/app/5707702298738688/listing/5639274879778816) what Google is saying about us.
+>
+
+###### Following are the important add-ons which empower you to setup Google Analytics like a Boss. It really helps to your clients, online stores etc
+
+* [Google Analytics eCommerce Tracking for WooCommerce](https://analytify.io/add-ons/woocommerce/)
+* [Google Analytics eCommerce Tracking for Easy Digital Downloads](https://analytify.io/add-ons/easy-digital-downloads/)
+* [Automated Email Notifications](https://analytify.io/add-ons/email-notifications/)
+* [Google Analytics Campaigns Tracking](https://analytify.io/add-ons/campaigns/)
+
+###### Following is a Complete Hierarchy Structure of Analytify Products Suite.
+
+* Analytify Core (`Free` and Required for all add-ons)
+    * Dashboard widget (`Free`)
+    * Analytify Pro (*Paid*)
+        * Campaigns Tracking (*Paid*)
+        * Email Notifications (*Paid*)
+        * ECommerce Tracking for WooCommerce (*Paid*)
+        * ECommerce Tracking for Easy Digital Downloads (*Paid*)
 
 == Installation ==
 
@@ -38,15 +57,20 @@ First, you need to Authenticate your GA account then you can select your web pro
 
 == Screenshots ==
 
-1. Google Analytics Dashboard Widget.
+1. [Google Analytics Dashboard Widget for WordPress](https://analytify.io/features/)
 
 == Changelog ==
+
+= 1.0.1 =
+* Multilingual and WPML compatible.
+* Language .pot file generated.
+* Changed admin notices to help users in installing core version of Analytify.
 
 = 1.0.0 =
 Initial Release.
 
 == Upgrade Notice ==
 
-= 1.0.0 =
-Initial Release.
+= 1.0.1 =
+Must update release.
 
