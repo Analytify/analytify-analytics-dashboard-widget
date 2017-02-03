@@ -32,7 +32,6 @@ function wp_install_analytify_dashboard() {
 
 	global $pagenow;
 
-	var_dump();
 	if ( 'index.php' != $pagenow && defined('DOING_AJAX') && ! DOING_AJAX ) { // Run only on main dashboard page.
 		return;
 	}
