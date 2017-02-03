@@ -4,7 +4,7 @@ Donate link: https://analytify.io/
 Tags: dashboard, Analytics, Google Analytics, Statistics, widget, analytify, googleanalytics, insights, wordpress analytics, tracking, google analytics realtime,
 Requires at least: 3.0.1
 Tested up to: 4.7.2
-Stable tag: 1.0.1
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,11 @@ Google Analytics Dashboard widget is a Free Add-on for Google Analytics by Analy
         * Email Notifications (*Paid*)
         * ECommerce Tracking for WooCommerce (*Paid*)
         * ECommerce Tracking for Easy Digital Downloads (*Paid*)
+
+
+> Compatibility Checks
+> Multilingual & Translateable
+> WPML Compatible
 
 == Installation ==
 
@@ -73,4 +78,3 @@ Initial Release.
 
 = 1.0.1 =
 Must update release.
-
