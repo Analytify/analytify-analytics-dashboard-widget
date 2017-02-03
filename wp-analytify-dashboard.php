@@ -55,7 +55,7 @@ function pa_install_free_dashboard() {
 	$link   = wp_nonce_url( add_query_arg( array( 'action' => $action, 'plugin' => $slug ), admin_url( 'update.php' ) ), $action . '_' . $slug );
 
 	printf('<div class="notice notice-error is-dismissible">
-	<p>%1$s<a href="%2$s">%3$s</a></p></div>' , esc_html__( 'Analytify Dashboard addon works with Analytify Free plugin. Please Install Analytify Free version. ', 'wp-analytify' ), $link, esc_html__( 'Click Here' ) );
+	<p>%1$s<a href="%2$s">%3$s</a></p></div>' , esc_html__( 'Google analytics dashboard widget works with Analytify plugin as an add-on. Please Install Analytify(Core) Free version. ', 'wp-analytify' ), $link, esc_html__( 'Click Here' ) );
 }
 
 /**
