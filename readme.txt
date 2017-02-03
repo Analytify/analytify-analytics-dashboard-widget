@@ -16,19 +16,19 @@ Google Analytics Dashboard widget is a Free Add-on for Google Analytics by Analy
 
 [Google Analytics Dashboard](http://analytify.io/details) widget by Analytify is a **FREE**  plug and play add-on. No settings needed as all, Add-on settings should have already setup from Analytify settings page.
 
->
+
 >**Google Analytics Premium Partner** - [Read](https://www.google.com/analytics/partners/company/5179388639313920/gadp/5629499534213120/app/5707702298738688/listing/5639274879778816) what Google is saying about us.
 >
 
 ###### Following are the important add-ons which empower you to setup Google Analytics like a Boss. It really helps to your clients, online stores etc
-
+<br>
 * [Google Analytics eCommerce Tracking for WooCommerce](https://analytify.io/add-ons/woocommerce/)
 * [Google Analytics eCommerce Tracking for Easy Digital Downloads](https://analytify.io/add-ons/easy-digital-downloads/)
 * [Automated Email Notifications](https://analytify.io/add-ons/email-notifications/)
 * [Google Analytics Campaigns Tracking](https://analytify.io/add-ons/campaigns/)
 
 ###### Following is a Complete Hierarchy Structure of Analytify Products Suite.
-
+<br>
 * Analytify Core (`Free` and Required for all add-ons)
     * Dashboard widget (`Free`)
     * Analytify Pro (*Paid*)
@@ -39,8 +39,8 @@ Google Analytics Dashboard widget is a Free Add-on for Google Analytics by Analy
 
 
 > Compatibility Checks
-> Multilingual & Translateable
-> WPML Compatible
+* Multilingual & Translateable
+* WPML Compatible
 
 == Installation ==
 
