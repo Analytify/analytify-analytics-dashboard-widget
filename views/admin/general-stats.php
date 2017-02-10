@@ -8,27 +8,27 @@ function pa_include_general( $current, $stats) {
 ?>
     <div class="analytify_general_status analytify_status_box_wraper">
       <div class="analytify_status_header">
-        <h3><?php _e( 'General Statistics', 'wp-analytify'); ?></h3>
+        <h3><?php _e( 'General Statistics', 'wp-analytify-dashboard-widget'); ?></h3>
       </div>
 
       <div class="analytify_status_body">
         <div class="analytify_general_status_boxes_wraper">
 
           <div class="analytify_general_status_boxes">
-            <h4><?php esc_html_e( 'Sessions', 'wp-analytify' ); ?></h4>
+            <h4><?php esc_html_e( 'Sessions', 'wp-analytify-dashboard-widget' ); ?></h4>
             <div class="analytify_general_stats_value"><?php echo number_format( $stats->totalsForAllResults['ga:sessions'] ); ?></div>
 
           </div>
 
           <div class="analytify_general_status_boxes">
-            <h4><?php esc_html_e( 'visitors', 'wp-analytify' ); ?></h4>
+            <h4><?php esc_html_e( 'visitors', 'wp-analytify-dashboard-widget' ); ?></h4>
             <div class="analytify_general_stats_value"><?php echo number_format($stats->totalsForAllResults['ga:users']); ?></div>
 
           </div>
 
 
           <div class="analytify_general_status_boxes">
-            <h4><?php esc_html_e( 'Bounce rate', 'wp-analytify' ); ?></h4>
+            <h4><?php esc_html_e( 'Bounce rate', 'wp-analytify-dashboard-widget' ); ?></h4>
             <div class="analytify_general_stats_value"><?php if ($stats->totalsForAllResults['ga:entrances'] <= 0) { ?>
                         0.00%
                     <?php
@@ -45,7 +45,7 @@ function pa_include_general( $current, $stats) {
 
 
           <div class="analytify_general_status_boxes">
-            <h4><?php esc_html_e( 'Avg. time on Page', 'wp-analytify' ); ?></h4>
+            <h4><?php esc_html_e( 'Avg. time on Page', 'wp-analytify-dashboard-widget' ); ?></h4>
             <div class="analytify_general_stats_value"><?php
                   if ($stats->totalsForAllResults['ga:sessions'] <= 0) {
                 ?>
@@ -66,7 +66,7 @@ function pa_include_general( $current, $stats) {
 
 
           <div class="analytify_general_status_boxes">
-            <h4><?php echo _e('AVERAGE PAGES' , 'wp-analytify')?></h4>
+            <h4><?php echo _e('AVERAGE PAGES' , 'wp-analytify-dashboard-widget')?></h4>
             <div class="analytify_general_stats_value">
                 <?php
                   if ($stats->totalsForAllResults['ga:sessions'] <= 0) {
@@ -87,7 +87,7 @@ function pa_include_general( $current, $stats) {
 
 
           <div class="analytify_general_status_boxes">
-            <h4><?php esc_html_e( 'Page views', 'wp-analytify' ); ?></h4>
+            <h4><?php esc_html_e( 'Page views', 'wp-analytify-dashboard-widget' ); ?></h4>
             <div class="analytify_general_stats_value"><?php
                   if ($stats->totalsForAllResults['ga:pageviews'] <= 0) {
                       echo '0';
@@ -101,7 +101,7 @@ function pa_include_general( $current, $stats) {
           </div>
 
           <div class="analytify_general_status_boxes">
-            <h4><?php esc_html_e( '% New sessions', 'wp-analytify' ); ?></h4>
+            <h4><?php esc_html_e( '% New sessions', 'wp-analytify-dashboard-widget' ); ?></h4>
             <div class="analytify_general_stats_value"><?php
 
                   $total_sessions   =  $stats->totalsForAllResults['ga:sessions'];
@@ -120,7 +120,7 @@ function pa_include_general( $current, $stats) {
           </div>
 
           <div class="analytify_general_status_boxes">
-            <h4><?php esc_html_e( 'New vs Returning visitors', 'wp-analytify' ); ?></h4>
+            <h4><?php esc_html_e( 'New vs Returning visitors', 'wp-analytify-dashboard-widget' ); ?></h4>
                 <?php echo "<span class='analytify_general_stats_value'>" . $stats->totalsForAllResults['ga:newUsers']. "</span> vs <span class='analytify_general_stats_value'>" . ( $stats->totalsForAllResults['ga:users'] -   $stats->totalsForAllResults['ga:newUsers'] ) . "</span>" ?>
 
           </div>
@@ -130,7 +130,7 @@ function pa_include_general( $current, $stats) {
 
       <div class="analytify_status_footer">
         <span class="analytify_info_stats">
-          <?php  _e('Did you know that total time on your site is' , 'wp-analytify')?>
+          <?php  _e('Did you know that total time on your site is' , 'wp-analytify-dashboard-widget')?>
           <?php
               echo $current->pa_pretty_time($stats->totalsForAllResults['ga:sessionDuration']);
           ?>

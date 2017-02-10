@@ -5,15 +5,15 @@ function pa_include_top_pages_stats( $current, $top_page_stats) {
 ?>
   	<div class="analytify_general_status analytify_status_box_wraper">
       	<div class="analytify_status_header">
-        	<h3><?php  _e( 'Top pages by views.', 'wp-analytify' ); ?></h3>
+        	<h3><?php  _e( 'Top pages by views.', 'wp-analytify-dashboard-widget' ); ?></h3>
       	</div>
       	<div class="analytify_status_body">
 		  	<table class="analytify_data_tables wp_analytify_paginated">
 				<thead>
 					<tr>
 						<th class="analytify_num_row">#</th>
-						<th class="analytify_txt_left"><?php esc_html_e( 'Title', 'wp-analytify' ); ?></th>
-						<th class="analytify_value_row"><?php esc_html_e( 'Views', 'wp-analytify' ); ?></th>
+						<th class="analytify_txt_left"><?php esc_html_e( 'Title', 'wp-analytify-dashboard-widget' ); ?></th>
+						<th class="analytify_value_row"><?php esc_html_e( 'Views', 'wp-analytify-dashboard-widget' ); ?></th>
 					</tr>
 				</thead>
 				<tbody>

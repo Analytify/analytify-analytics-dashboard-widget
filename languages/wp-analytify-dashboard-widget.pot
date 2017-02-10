@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"Project-Id-Version: Analytify - Analytics Dashboard widget\n"
-"POT-Creation-Date: 2017-01-24 10:42+0500\n"
-"PO-Revision-Date: 2017-01-24 10:42+0500\n"
+"Project-Id-Version: Analytify - Gooogle Analytics Dashboard widget\n"
+"POT-Creation-Date: 2017-02-10 11:35+0500\n"
+"PO-Revision-Date: 2017-02-10 11:35+0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,52 +20,84 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: analytify-dashboard-addon.php:26
+#: analytify-dashboard-addon.php:27 wp-analytify-dashboard.php:93
 msgid "Google Analytics Dashboard By Analytify"
 msgstr ""
 
-#: analytify-dashboard-addon.php:75
+#: analytify-dashboard-addon.php:57
+msgid "From"
+msgstr ""
+
+#: analytify-dashboard-addon.php:60
+msgid "To"
+msgstr ""
+
+#: analytify-dashboard-addon.php:67 views/admin/general-stats.php:11
+msgid "General Statistics"
+msgstr ""
+
+#: analytify-dashboard-addon.php:68
+msgid "Top pages"
+msgstr ""
+
+#: analytify-dashboard-addon.php:69
+msgid "Top Countries"
+msgstr ""
+
+#: analytify-dashboard-addon.php:70
+msgid "Top Cities"
+msgstr ""
+
+#: analytify-dashboard-addon.php:71 views/admin/top-keywords-stats.php:15
+msgid "Keywords"
+msgstr ""
+
+#: analytify-dashboard-addon.php:72 views/admin/top-socialmedia-stats.php:15
+msgid "Social Media"
+msgstr ""
+
+#: analytify-dashboard-addon.php:73
+msgid "Top Reffers"
+msgstr ""
+
+#: analytify-dashboard-addon.php:76
 msgid "Last 30 days"
 msgstr ""
 
-#: analytify-dashboard-addon.php:77
+#: analytify-dashboard-addon.php:78
 msgid "This month"
 msgstr ""
 
-#: analytify-dashboard-addon.php:79
+#: analytify-dashboard-addon.php:80
 msgid "Last month"
 msgstr ""
 
-#: analytify-dashboard-addon.php:82
+#: analytify-dashboard-addon.php:83
 msgid "Last 3 months"
 msgstr ""
 
-#: analytify-dashboard-addon.php:84
+#: analytify-dashboard-addon.php:85
 msgid "Last 6 months"
 msgstr ""
 
-#: analytify-dashboard-addon.php:87
+#: analytify-dashboard-addon.php:88
 msgid "Last year"
 msgstr ""
 
-#: analytify-dashboard-addon.php:90
+#: analytify-dashboard-addon.php:91
 msgid "Custom Range"
 msgstr ""
 
-#: analytify-dashboard-addon.php:90
+#: analytify-dashboard-addon.php:91
 msgid "Select a custom date"
 msgstr ""
 
-#: analytify-dashboard-addon.php:100
+#: analytify-dashboard-addon.php:101
 msgid "Select the Profie"
 msgstr ""
 
-#: analytify-dashboard-addon.php:103
+#: analytify-dashboard-addon.php:104
 msgid "Connect your Google account with Analytify"
-msgstr ""
-
-#: views/admin/general-stats.php:11
-msgid "General Statistics"
 msgstr ""
 
 #: views/admin/general-stats.php:18
@@ -131,10 +163,6 @@ msgstr ""
 msgid "Top keywords by views."
 msgstr ""
 
-#: views/admin/top-keywords-stats.php:15
-msgid "Keywords"
-msgstr ""
-
 #: views/admin/top-pages-stats.php:8
 msgid "Top pages by views."
 msgstr ""
@@ -155,32 +183,22 @@ msgstr ""
 msgid "Top social media by views."
 msgstr ""
 
-#: views/admin/top-socialmedia-stats.php:15
-msgid "Social Media"
-msgstr ""
-
-#: wp-analytify-dashboard.php:58
+#: wp-analytify-dashboard.php:64 wp-analytify-dashboard.php:80
 msgid ""
-"Analytify Dashboard addon works with Analytify Free plugin. Please Install "
-"Analytify Free version. "
+"Google Analytics by Analytify is required to run Google Analytics dashboard "
+"widget."
 msgstr ""
 
-#: wp-analytify-dashboard.php:58
-msgid "Click Here"
+#: wp-analytify-dashboard.php:64
+msgid "Click here to Install Analytify(Core)"
 msgstr ""
 
-#: wp-analytify-dashboard.php:73
-msgid ""
-"Analytify Dashboard addon works with the Analytify Free plugin. Please "
-"activate "
-msgstr ""
-
-#: wp-analytify-dashboard.php:73
-msgid "Analytify Free."
+#: wp-analytify-dashboard.php:80
+msgid "Click here to activate Analytify Core plugin."
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "Analytify - Analytics Dashboard widget"
+msgid "Analytify - Gooogle Analytics Dashboard widget"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
@@ -195,7 +213,7 @@ msgid ""
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Analytify"
+msgid "ANALYTIFY LLC"
 msgstr ""
 
 #. Author URI of the plugin/theme

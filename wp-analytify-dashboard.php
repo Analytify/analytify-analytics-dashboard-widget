@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  * Author: ANALYTIFY LLC
  * Author URI: https://analytify.io/
- * Text Domain: wp-analytify
+ * Text Domain: wp-analytify-dashboard-widget
  * Domain Path: /languages
  */
 
@@ -61,7 +61,7 @@ function pa_install_free_dashboard() {
 	$slug   = 'wp-analytify';
 	$link   = wp_nonce_url( add_query_arg( array( 'action' => $action, 'plugin' => $slug ), admin_url( 'update.php' ) ), $action . '_' . $slug );
 
-	$message = sprintf('%1$s <br /><a href="%2$s">%3$s</a>' , esc_html__( 'Google Analytics by Analytify is required to run Google Analytics dashboard widget.', 'wp-analytify' ), $link, esc_html__( 'Click here to Install Analytify(Core)' ) );
+	$message = sprintf('%1$s <br /><a href="%2$s">%3$s</a>' , esc_html__( 'Google Analytics by Analytify is required to run Google Analytics dashboard widget.', 'wp-analytify-dashboard-widget' ), $link, esc_html__( 'Click here to Install Analytify(Core)', 'wp-analytify-dashboard-widget' ) );
 
  	analytify_widget_notice( $message, 'wp-analytify-danger' );
 }
@@ -77,7 +77,7 @@ function pa_activate_free_dashboard() {
 	$slug   = 'wp-analytify/wp-analytify.php';
 	$link   = wp_nonce_url( add_query_arg( array( 'action' => $action, 'plugin' => $slug ), admin_url( 'plugins.php' ) ), $action . '-plugin_' . $slug );
 
-	$message = 	sprintf( '%1$s <br /><a href="%2$s">%3$s</a>' , esc_html__( 'Google Analytics by Analytify is required to run Google Analytics dashboard widget.', 'wp-analytify' ), $link, esc_html__( 'Click here to activate Analytify Core plugin.' ) );
+	$message = 	sprintf( '%1$s <br /><a href="%2$s">%3$s</a>' , esc_html__( 'Google Analytics by Analytify is required to run Google Analytics dashboard widget.', 'wp-analytify-dashboard-widget' ), $link, esc_html__( 'Click here to activate Analytify Core plugin.', 'wp-analytify-dashboard-widget' ) );
 
 	analytify_widget_notice( $message, 'wp-analytify-danger' );
 
@@ -90,7 +90,7 @@ function pa_activate_free_dashboard() {
  * @since 1.0.3
  */
 function add_analytify_widget() {
-	wp_add_dashboard_widget( 'analytify-dashboard-addon-warning', __( 'Google Analytics Dashboard By Analytify', 'wp-analytify' ), 'wpa_general_dashboard_area', null , null );
+	wp_add_dashboard_widget( 'analytify-dashboard-addon-warning', __( 'Google Analytics Dashboard By Analytify', 'wp-analytify-dashboard-widget' ), 'wpa_general_dashboard_area', null , null );
 }
 
 /**
@@ -143,4 +143,16 @@ function wpa_general_dashboard_area( $var, $dashboard_id ) {
 		 wp_enqueue_style( 'analytify-widget-admin', plugins_url( 'assets/css/admin.css', __FILE__ ), array(), ANALYTIFY_DASHBOARD_VERSION );
 	 }
  }
+
+/**
+ * Load TextDoamin
+ *
+ * @since 1.0.2
+ */
+function wp_analytify_dashboard_widget_load_text_domain(){
+	$plugin_dir = basename( dirname( __FILE__ ) );
+	load_plugin_textdomain( 'wp-analytify-dashboard-widget', false , $plugin_dir . '/languages/' );
+}
+add_action( 'init', 'wp_analytify_dashboard_widget_load_text_domain' );
+
 ?>
