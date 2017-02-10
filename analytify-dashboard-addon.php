@@ -24,7 +24,7 @@ if ( ! class_exists( 'Analytify_Dashboard_Addon' ) ) {
 
 		public function add_analytify_widget() {
 
-			wp_add_dashboard_widget( 'analytify-dashboard-addon', __( 'Google Analytics Dashboard By Analytify', 'wp-analytify' ), array( $this, 'wpa_general_dashboard_area' ), null , null );
+			wp_add_dashboard_widget( 'analytify-dashboard-addon', __( 'Google Analytics Dashboard By Analytify', 'wp-analytify-dashboard-widget' ), array( $this, 'wpa_general_dashboard_area' ), null , null );
 
 		}
 
