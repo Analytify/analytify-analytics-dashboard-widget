@@ -66,6 +66,11 @@ First, you need to Authenticate your GA account then you can select your web pro
 
 == Changelog ==
 
+= 1.0.2 =
+* bugfix: Changed text-domain for Translation mangement.
+* Enhancement: Dutch language.
+* Enhancement: Russian language.
+
 = 1.0.1 =
 * Multilingual and WPML compatible.
 * Language .pot file generated.
@@ -77,4 +82,4 @@ Initial Release.
 == Upgrade Notice ==
 
 = 1.0.1 =
-Must update release.
+Must update release. Multilingual update, Russian and Dutch langauge files added.
