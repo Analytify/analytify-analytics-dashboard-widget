@@ -13,7 +13,7 @@ function pa_include_cities_stats( $current, $top_stats ) {
 					<tr>
 						<th class="analytify_num_row">#</th>
 						<th class="analytify_txt_left"><?php esc_html_e( 'Cities', 'wp-analytify-dashboard-widget' ); ?></th>
-						<th class="analytify_value_row"><?php esc_html_e( 'Views', 'wp-analytify-dashboard-widget' ); ?></th>
+						<th class="analytify_value_row"><?php analytify_e( 'Views', 'wp-analytify' ); ?></th>
 					</tr>
 				</thead>
 				<tbody>

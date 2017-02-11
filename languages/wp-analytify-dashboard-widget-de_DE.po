@@ -1,13 +1,15 @@
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Project-Id-Version: Analytify - Analytics Dashboard widget\n"
-"POT-Creation-Date: 2017-02-08 10:20+0100\n"
-"PO-Revision-Date: 2017-02-08 10:49+0100\n"
+"POT-Creation-Date: 2017-02-11 16:59+0500\n"
+"PO-Revision-Date: 2017-02-11 16:59+0500\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.11\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: wp-analytify-dashboard.php\n"
@@ -15,94 +17,44 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
 "_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"Last-Translator: \n"
-"Language: de\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: analytify-dashboard-addon.php:26
+#: analytify-dashboard-addon.php:27 wp-analytify-dashboard.php:93
 msgid "Google Analytics Dashboard By Analytify"
 msgstr "Google Analytics Dashboard von Analytify"
 
-#: analytify-dashboard-addon.php:75
-msgid "Last 30 days"
-msgstr "Letzte 30 Tage"
+#: analytify-dashboard-addon.php:68
+msgid "Top pages"
+msgstr ""
 
-#: analytify-dashboard-addon.php:77
-msgid "This month"
-msgstr "Dieser Monat"
+#: analytify-dashboard-addon.php:69
+msgid "Top Countries"
+msgstr ""
 
-#: analytify-dashboard-addon.php:79
-msgid "Last month"
-msgstr "Letzter Monat"
+#: analytify-dashboard-addon.php:70
+msgid "Top Cities"
+msgstr ""
 
-#: analytify-dashboard-addon.php:82
-msgid "Last 3 months"
-msgstr "Letzte 3 Monate"
+#: analytify-dashboard-addon.php:71 views/admin/top-keywords-stats.php:15
+msgid "Keywords"
+msgstr "Schlüsselwörter"
 
-#: analytify-dashboard-addon.php:84
-msgid "Last 6 months"
-msgstr "Letzte 6 Monate"
-
-#: analytify-dashboard-addon.php:87
-msgid "Last year"
-msgstr "Letztes Jahr"
-
-#: analytify-dashboard-addon.php:90
-msgid "Custom Range"
-msgstr "Individueller Zeitraum"
-
-#: analytify-dashboard-addon.php:90
+#: analytify-dashboard-addon.php:91
 msgid "Select a custom date"
 msgstr "Wählen Sie einen gewünschten Zeitraum aus"
 
-#: analytify-dashboard-addon.php:100
+#: analytify-dashboard-addon.php:101
 msgid "Select the Profie"
 msgstr "Wählen Sie das Profil"
 
-#: analytify-dashboard-addon.php:103
+#: analytify-dashboard-addon.php:104
 msgid "Connect your Google account with Analytify"
 msgstr "Verbinden Sie Ihren Google Account mit Analytify"
-
-#: views/admin/general-stats.php:11
-msgid "General Statistics"
-msgstr "Allgemeine Statistiken"
-
-#: views/admin/general-stats.php:18
-msgid "Sessions"
-msgstr "Sitzungen"
-
-#: views/admin/general-stats.php:24
-msgid "visitors"
-msgstr "Besucher"
-
-#: views/admin/general-stats.php:31
-msgid "Bounce rate"
-msgstr "Absprungrate"
-
-#: views/admin/general-stats.php:48
-msgid "Avg. time on Page"
-msgstr "Durchschnittliche Zeit auf Seite"
 
 #: views/admin/general-stats.php:69
 msgid "AVERAGE PAGES"
 msgstr "DURCHSCHNITTLICHE SEITEN"
-
-#: views/admin/general-stats.php:90
-msgid "Page views"
-msgstr "Seitenanzeigen"
-
-#: views/admin/general-stats.php:104
-msgid "% New sessions"
-msgstr "% Neue Sitzungen"
-
-#: views/admin/general-stats.php:123
-msgid "New vs Returning visitors"
-msgstr "Neue gg. wiederkehrende Besucher"
-
-#: views/admin/general-stats.php:133
-msgid "Did you know that total time on your site is"
-msgstr "Die Gesamtzeit auf Ihrer Seite ist"
 
 #: views/admin/top-cities-stats.php:8
 msgid "Top cities by views."
@@ -111,13 +63,6 @@ msgstr "Top Städte nach Ansichten."
 #: views/admin/top-cities-stats.php:15
 msgid "Cities"
 msgstr "Städte"
-
-#: views/admin/top-cities-stats.php:16 views/admin/top-countries-stats.php:16
-#: views/admin/top-keywords-stats.php:16 views/admin/top-pages-stats.php:16
-#: views/admin/top-reffers-stats.php:16
-#: views/admin/top-socialmedia-stats.php:16
-msgid "Views"
-msgstr "Ansichten"
 
 #: views/admin/top-countries-stats.php:8
 msgid "Top countries by views."
@@ -131,60 +76,30 @@ msgstr "Länder"
 msgid "Top keywords by views."
 msgstr "Top Keywords nach Ansichten."
 
-#: views/admin/top-keywords-stats.php:15
-msgid "Keywords"
-msgstr "Schlüsselwörter"
-
-#: views/admin/top-pages-stats.php:8
-msgid "Top pages by views."
-msgstr "Top Seiten nach Ansichten."
-
-#: views/admin/top-pages-stats.php:15
-msgid "Title"
-msgstr "Titel"
-
 #: views/admin/top-reffers-stats.php:8
 msgid "Top reffers by views."
 msgstr "Top Referrer nach Ansichten."
-
-#: views/admin/top-reffers-stats.php:15
-msgid "Reffers"
-msgstr "Referrer"
 
 #: views/admin/top-socialmedia-stats.php:8
 msgid "Top social media by views."
 msgstr "Top Soziale Netzwerke nach Ansichten."
 
-#: views/admin/top-socialmedia-stats.php:15
-msgid "Social Media"
-msgstr "Soziale Medien"
-
-#: wp-analytify-dashboard.php:58
+#: wp-analytify-dashboard.php:64 wp-analytify-dashboard.php:80
 msgid ""
-"Analytify Dashboard addon works with Analytify Free plugin. Please Install "
-"Analytify Free version. "
+"Google Analytics by Analytify is required to run Google Analytics dashboard "
+"widget."
 msgstr ""
-"Das Analytify Dashboard Addon benötigt das Analytify Free plugin. Bitte "
-"installieren Sie die Analytify Free Version."
 
-#: wp-analytify-dashboard.php:58
-msgid "Click Here"
-msgstr "Hier klicken"
-
-#: wp-analytify-dashboard.php:73
-msgid ""
-"Analytify Dashboard addon works with the Analytify Free plugin. Please "
-"activate "
+#: wp-analytify-dashboard.php:64
+msgid "Click here to Install Analytify(Core)"
 msgstr ""
-"Das Analytify Dashboard Addon benötigt das Analytify Free plugin. Bitte "
-"aktivieren"
 
-#: wp-analytify-dashboard.php:73
-msgid "Analytify Free."
+#: wp-analytify-dashboard.php:80
+msgid "Click here to activate Analytify Core plugin."
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "Analytify - Analytics Dashboard widget"
+msgid "Analytify - Gooogle Analytics Dashboard widget"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
@@ -202,9 +117,89 @@ msgstr ""
 "auf Anforderung von Nutzern entwickelt."
 
 #. Author of the plugin/theme
-msgid "Analytify"
+msgid "ANALYTIFY LLC"
 msgstr ""
 
 #. Author URI of the plugin/theme
 msgid "https://analytify.io/"
 msgstr ""
+
+#~ msgid "Last 30 days"
+#~ msgstr "Letzte 30 Tage"
+
+#~ msgid "This month"
+#~ msgstr "Dieser Monat"
+
+#~ msgid "Last month"
+#~ msgstr "Letzter Monat"
+
+#~ msgid "Last 3 months"
+#~ msgstr "Letzte 3 Monate"
+
+#~ msgid "Last 6 months"
+#~ msgstr "Letzte 6 Monate"
+
+#~ msgid "Last year"
+#~ msgstr "Letztes Jahr"
+
+#~ msgid "Custom Range"
+#~ msgstr "Individueller Zeitraum"
+
+#~ msgid "General Statistics"
+#~ msgstr "Allgemeine Statistiken"
+
+#~ msgid "Sessions"
+#~ msgstr "Sitzungen"
+
+#~ msgid "visitors"
+#~ msgstr "Besucher"
+
+#~ msgid "Bounce rate"
+#~ msgstr "Absprungrate"
+
+#~ msgid "Avg. time on Page"
+#~ msgstr "Durchschnittliche Zeit auf Seite"
+
+#~ msgid "Page views"
+#~ msgstr "Seitenanzeigen"
+
+#~ msgid "% New sessions"
+#~ msgstr "% Neue Sitzungen"
+
+#~ msgid "New vs Returning visitors"
+#~ msgstr "Neue gg. wiederkehrende Besucher"
+
+#~ msgid "Did you know that total time on your site is"
+#~ msgstr "Die Gesamtzeit auf Ihrer Seite ist"
+
+#~ msgid "Views"
+#~ msgstr "Ansichten"
+
+#~ msgid "Top pages by views."
+#~ msgstr "Top Seiten nach Ansichten."
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Reffers"
+#~ msgstr "Referrer"
+
+#~ msgid "Social Media"
+#~ msgstr "Soziale Medien"
+
+#~ msgid ""
+#~ "Analytify Dashboard addon works with Analytify Free plugin. Please "
+#~ "Install Analytify Free version. "
+#~ msgstr ""
+#~ "Das Analytify Dashboard Addon benötigt das Analytify Free plugin. Bitte "
+#~ "installieren Sie die Analytify Free Version."
+
+#~ msgid "Click Here"
+#~ msgstr "Hier klicken"
+
+#~ msgid ""
+#~ "Analytify Dashboard addon works with the Analytify Free plugin. Please "
+#~ "activate "
+#~ msgstr ""
+#~ "Das Analytify Dashboard Addon benötigt das Analytify Free plugin. Bitte "
+#~ "aktivieren"

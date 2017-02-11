@@ -54,41 +54,41 @@ if ( ! class_exists( 'Analytify_Dashboard_Addon' ) ) {
 												<input type="hidden" name="st_date" id="analytify_start_val">
 												<input type="hidden" name="ed_date" id="analytify_end_val">
 
-												<label for="analytify_start"><?php _e( 'From', 'wp-analytify-dashboard-widget' ) ?>:</label>
+												<label for="analytify_start"><?php analytify_e( 'From:', 'wp-analytify' ) ?></label>
 												<input type="text" id="analytify_start" value="<?php echo isset( $s_date ) ? $s_date :
 													'' ?>">
-												<label for="analytify_end"><?php _e( 'To', 'wp-analytify-dashboard-widget' ) ?>:</label>
+												<label for="analytify_end"><?php analytify_e( 'To:', 'wp-analytify' ) ?></label>
 												<input type="text" id="analytify_end" value="<?php echo isset( $ed_date ) ? $ed_date :
 													'' ?>">
 												<div class="analytify_arrow_date_picker"></div>
 											</div>
 											<input type="submit" value="View Stats" name="view_data" class="analytify_submit_date_btn">
 											<select  id="analytify_dashboard_stats_type">
-												<option value="general-statistics"><?php _e( 'General Statistics', 'wp-analytify-dashboard-widget' ) ?></option>
+												<option value="general-statistics"><?php analytify_e( 'General Statistics', 'wp-analytify-dashboard-widget' ) ?></option>
 												<option value="top-pages-by-views"><?php _e( 'Top pages', 'wp-analytify-dashboard-widget' ) ?></option>
 												<option value="top-countries"><?php _e( 'Top Countries', 'wp-analytify-dashboard-widget' ) ?></option>
 												<option value="top-cities"><?php _e( 'Top Cities', 'wp-analytify-dashboard-widget' ) ?></option>
 												<option value="keywords"><?php _e( 'Keywords', 'wp-analytify-dashboard-widget' ) ?></option>
-												<option value="social-media"><?php _e( 'Social Media', 'wp-analytify-dashboard-widget' ) ?></option>
-												<option value="top-reffers"><?php _e( 'Top Reffers', 'wp-analytify-dashboard-widget' ) ?></option>
+												<option value="social-media"><?php analytify_e( 'Social Media', 'wp-analytify' ) ?></option>
+												<option value="top-reffers"><?php analytify_e( 'Top Referrers', 'wp-analytify' ) ?></option>
 											</select>
 											<ul class="analytify_select_date_list">
-												<li><?php _e( 'Last 30 days', 'wp-analytify-dashboard-widget' )?> <span data-start="" data-end=""><span class="analytify_start_date_data analytify_last_30_day"></span> – <span class="analytify_end_date_data analytify_today_date"></span></span></li>
+												<li><?php analytify_e( 'Last 30 days', 'wp-analytify' )?> <span data-start="" data-end=""><span class="analytify_start_date_data analytify_last_30_day"></span> – <span class="analytify_end_date_data analytify_today_date"></span></span></li>
 
-												<li><?php _e( 'This month', 'wp-analytify-dashboard-widget' )?> <span data-start="" data-end=""><span class="analytify_start_date_data analytify_this_month_start_date"></span> – <span class="analytify_end_date_data analytify_today_date"></span></span></li>
+												<li><?php analytify_e( 'This month', 'wp-analytify' )?> <span data-start="" data-end=""><span class="analytify_start_date_data analytify_this_month_start_date"></span> – <span class="analytify_end_date_data analytify_today_date"></span></span></li>
 
-												<li><?php _e( 'Last month', 'wp-analytify-dashboard-widget' )?> <span data-start="" data-end=""><span class="analytify_start_date_data analytify_last_month_start_date"></span> – <span class="analytify_end_date_data analytify_last_month_end_date"></span></span></li>
-
-
-												<li><?php _e( 'Last 3 months', 'wp-analytify-dashboard-widget' )?> <span data-start="" data-end=""><span class="analytify_start_date_data analytify_last_3_months_start_date"></span> – <span class="analytify_end_date_data analytify_last_month_end_date"></span></span></li>
-
-												<li><?php _e( 'Last 6 months', 'wp-analytify-dashboard-widget' )?>  <span data-start="" data-end=""><span class="analytify_start_date_data analytify_last_6_months_start_date"></span> – <span class="analytify_end_date_data analytify_last_month_end_date"></span></span></li>
+												<li><?php analytify_e( 'Last month', 'wp-analytify' )?> <span data-start="" data-end=""><span class="analytify_start_date_data analytify_last_month_start_date"></span> – <span class="analytify_end_date_data analytify_last_month_end_date"></span></span></li>
 
 
-												<li><?php _e( 'Last year', 'wp-analytify-dashboard-widget' )?> <span data-start="" data-end=""><span class="analytify_start_date_data analytify_last_year_start_date"></span> – <span class="analytify_end_date_data analytify_last_month_end_date"></span></span></li>
+												<li><?php analytify_e( 'Last 3 months', 'wp-analytify' )?> <span data-start="" data-end=""><span class="analytify_start_date_data analytify_last_3_months_start_date"></span> – <span class="analytify_end_date_data analytify_last_month_end_date"></span></span></li>
+
+												<li><?php analytify_e( 'Last 6 months', 'wp-analytify' )?>  <span data-start="" data-end=""><span class="analytify_start_date_data analytify_last_6_months_start_date"></span> – <span class="analytify_end_date_data analytify_last_month_end_date"></span></span></li>
 
 
-												<li><?php _e( 'Custom Range', 'wp-analytify-dashboard-widget' )?> <span class="custom_range"><?php _e( 'Select a custom date', 'wp-analytify' )?></span></li>
+												<li><?php analytify_e( 'Last year', 'wp-analytify' )?> <span data-start="" data-end=""><span class="analytify_start_date_data analytify_last_year_start_date"></span> – <span class="analytify_end_date_data analytify_last_month_end_date"></span></span></li>
+
+
+												<li><?php analytify_e( 'Custom Range', 'wp-analytify' )?> <span class="custom_range"><?php _e( 'Select a custom date', 'wp-analytify' )?></span></li>
 											</ul>
 										</form>
 									</div>
@@ -216,6 +216,35 @@ if ( ! class_exists( 'Analytify_Dashboard_Addon' ) ) {
 						wp_die();
 					}
 
+				}
+			}
+
+
+
+			/**
+			* Helper function for translation.
+			*/
+			if ( ! function_exists( 'analytify__' ) ) {
+				/**
+				* Wrapper for __() gettext function.
+				* @param  string $string     Translatable text string
+				* @param  string $textdomain Text domain, default: wp-analytify
+				* @return void
+				*/
+				function analytify__( $string, $textdomain = 'wp-analytify' ) {
+					return __( $string, $textdomain );
+				}
+			}
+
+			if ( ! function_exists( 'analytify_e' ) ) {
+				/**
+				* Wrapper for _e() gettext function.
+				* @param  string $string     Translatable text string
+				* @param  string $textdomain Text domain, default: wp-analytify
+				* @return void
+				*/
+				function analytify_e( $string, $textdomain = 'wp-analytify' ) {
+					echo __( $string, $textdomain );
 				}
 			}
 

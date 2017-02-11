@@ -12,8 +12,8 @@ function pa_include_socialmedia_stats( $current, $top_stats ) {
 				<thead>
 					<tr>
 						<th class="analytify_num_row">#</th>
-						<th class="analytify_txt_left"><?php esc_html_e( 'Social Media', 'wp-analytify-dashboard-widget' ); ?></th>
-						<th class="analytify_value_row"><?php esc_html_e( 'Views', 'wp-analytify-dashboard-widget' ); ?></th>
+						<th class="analytify_txt_left"><?php analytify_e( 'Social Media', 'wp-analytify' ); ?></th>
+						<th class="analytify_value_row"><?php analytify_e( 'Views', 'wp-analytify' ); ?></th>
 					</tr>
 				</thead>
 				<tbody>
