@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Analytify - Analytics Dashboard widget\n"
 "POT-Creation-Date: 2017-02-11 16:59+0500\n"
-"PO-Revision-Date: 2017-02-11 16:59+0500\n"
+"PO-Revision-Date: 2017-02-14 13:00+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -26,15 +26,15 @@ msgstr "Google Analytics Dashboard von Analytify"
 
 #: analytify-dashboard-addon.php:68
 msgid "Top pages"
-msgstr ""
+msgstr "Top Seiten"
 
 #: analytify-dashboard-addon.php:69
 msgid "Top Countries"
-msgstr ""
+msgstr "Top Länder"
 
 #: analytify-dashboard-addon.php:70
 msgid "Top Cities"
-msgstr ""
+msgstr "Top Städte"
 
 #: analytify-dashboard-addon.php:71 views/admin/top-keywords-stats.php:15
 msgid "Keywords"
@@ -89,23 +89,26 @@ msgid ""
 "Google Analytics by Analytify is required to run Google Analytics dashboard "
 "widget."
 msgstr ""
+"Google Analytics von Analytify ist benötigt, um das Google Analytics "
+"Dashboard Widget nutzen zu können."
 
 #: wp-analytify-dashboard.php:64
 msgid "Click here to Install Analytify(Core)"
-msgstr ""
+msgstr "Klicken Sie hier, um das Analytics Core Plugin zu installieren"
 
 #: wp-analytify-dashboard.php:80
 msgid "Click here to activate Analytify Core plugin."
-msgstr ""
+msgstr "Klicken Sie hier, um das Analytify Core Plugin zu installieren."
 
 #. Plugin Name of the plugin/theme
 msgid "Analytify - Gooogle Analytics Dashboard widget"
-msgstr ""
+msgstr "Analytify - Google Analytics Dashboard Widget"
 
 #. Plugin URI of the plugin/theme
 msgid ""
 "https://analytify.io/add-ons/google-analytics-dashboard-widget-wordpress/"
 msgstr ""
+"https://analytify.io/add-ons/google-analytics-dashboard-widget-wordpress/"
 
 #. Description of the plugin/theme
 msgid ""
@@ -118,11 +121,11 @@ msgstr ""
 
 #. Author of the plugin/theme
 msgid "ANALYTIFY LLC"
-msgstr ""
+msgstr "ANALYTIFY LLC"
 
 #. Author URI of the plugin/theme
 msgid "https://analytify.io/"
-msgstr ""
+msgstr "https://analytify.io/"
 
 #~ msgid "Last 30 days"
 #~ msgstr "Letzte 30 Tage"
