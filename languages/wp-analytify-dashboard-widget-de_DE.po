@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Analytify - Analytics Dashboard widget\n"
-"POT-Creation-Date: 2017-02-11 16:59+0500\n"
-"PO-Revision-Date: 2017-02-14 13:00+0100\n"
+"POT-Creation-Date: 2017-02-17 12:16+0500\n"
+"PO-Revision-Date: 2017-02-17 12:17+0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -23,6 +23,10 @@ msgstr ""
 #: analytify-dashboard-addon.php:27 wp-analytify-dashboard.php:93
 msgid "Google Analytics Dashboard By Analytify"
 msgstr "Google Analytics Dashboard von Analytify"
+
+#: analytify-dashboard-addon.php:65
+msgid "View Stats"
+msgstr ""
 
 #: analytify-dashboard-addon.php:68
 msgid "Top pages"

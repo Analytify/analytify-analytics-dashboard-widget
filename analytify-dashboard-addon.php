@@ -62,9 +62,9 @@ if ( ! class_exists( 'Analytify_Dashboard_Addon' ) ) {
 													'' ?>">
 												<div class="analytify_arrow_date_picker"></div>
 											</div>
-											<input type="submit" value="View Stats" name="view_data" class="analytify_submit_date_btn">
+											<input type="submit" value="<?php _e( 'View Stats', 'wp-analytify-dashboard-widget' ) ?>" name="view_data" class="analytify_submit_date_btn">
 											<select  id="analytify_dashboard_stats_type">
-												<option value="general-statistics"><?php analytify_e( 'General Statistics', 'wp-analytify-dashboard-widget' ) ?></option>
+												<option value="general-statistics"><?php analytify_e( 'General Statistics', 'wp-analytify' ) ?></option>
 												<option value="top-pages-by-views"><?php _e( 'Top pages', 'wp-analytify-dashboard-widget' ) ?></option>
 												<option value="top-countries"><?php _e( 'Top Countries', 'wp-analytify-dashboard-widget' ) ?></option>
 												<option value="top-cities"><?php _e( 'Top Cities', 'wp-analytify-dashboard-widget' ) ?></option>
