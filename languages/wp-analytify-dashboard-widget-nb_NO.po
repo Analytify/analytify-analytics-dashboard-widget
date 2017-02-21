@@ -1,15 +1,15 @@
-#, fuzzy
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"Project-Id-Version: Analytify - Gooogle Analytics Dashboard widget\n"
-"POT-Creation-Date: 2017-02-21 16:18+0500\n"
-"PO-Revision-Date: 2017-02-10 11:41+0500\n"
+"Project-Id-Version: Analytify - Analytics Dashboard widget\n"
+"POT-Creation-Date: 2017-02-21 16:19+0500\n"
+"PO-Revision-Date: 2017-02-21 16:19+0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: nb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.12\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: wp-analytify-dashboard.php\n"
@@ -42,51 +42,51 @@ msgstr ""
 
 #: analytify-dashboard-addon.php:71 views/admin/top-keywords-stats.php:15
 msgid "Keywords"
-msgstr ""
+msgstr "Søkeord"
 
 #: analytify-dashboard-addon.php:91
 msgid "Select a custom date"
-msgstr ""
+msgstr "Velg egendefinert dato"
 
 #: analytify-dashboard-addon.php:101
 msgid "Select the Profie"
-msgstr ""
+msgstr "Velg profil"
 
 #: analytify-dashboard-addon.php:104
 msgid "Connect your Google account with Analytify"
-msgstr ""
+msgstr "Koble din Google bruker til Analytify"
 
 #: views/admin/general-stats.php:69
 msgid "AVERAGE PAGES"
-msgstr ""
+msgstr "Sider per økt"
 
 #: views/admin/top-cities-stats.php:8
 msgid "Top cities by views."
-msgstr ""
+msgstr "Byer"
 
 #: views/admin/top-cities-stats.php:15
 msgid "Cities"
-msgstr ""
+msgstr "Byer"
 
 #: views/admin/top-countries-stats.php:8
 msgid "Top countries by views."
-msgstr ""
+msgstr "Land"
 
 #: views/admin/top-countries-stats.php:15
 msgid "Countries"
-msgstr ""
+msgstr "Land"
 
 #: views/admin/top-keywords-stats.php:8
 msgid "Top keywords by views."
-msgstr ""
+msgstr "Mest brukte søkeord"
 
 #: views/admin/top-reffers-stats.php:8
 msgid "Top reffers by views."
-msgstr ""
+msgstr "Henvisninger"
 
 #: views/admin/top-socialmedia-stats.php:8
 msgid "Top social media by views."
-msgstr ""
+msgstr "Sosiale medier"
 
 #: wp-analytify-dashboard.php:64 wp-analytify-dashboard.php:80
 msgid ""
@@ -124,3 +124,66 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "https://analytify.io/"
 msgstr ""
+
+#~ msgid "Last 30 days"
+#~ msgstr "Siste 30 dager"
+
+#~ msgid "This month"
+#~ msgstr "Denne måneden"
+
+#~ msgid "Last month"
+#~ msgstr "Siste måned"
+
+#~ msgid "Last 3 months"
+#~ msgstr "Siste 3 måneder"
+
+#~ msgid "Last 6 months"
+#~ msgstr "Siste 6 måneder"
+
+#~ msgid "Last year"
+#~ msgstr "Siste år"
+
+#~ msgid "Custom Range"
+#~ msgstr "Egendefinert intervall"
+
+#~ msgid "General Statistics"
+#~ msgstr "Generell statistikk"
+
+#~ msgid "Sessions"
+#~ msgstr "Økter"
+
+#~ msgid "visitors"
+#~ msgstr "besøkende"
+
+#~ msgid "Bounce rate"
+#~ msgstr "Fluktfrekvens"
+
+#~ msgid "Avg. time on Page"
+#~ msgstr "Gjennomsnittlig tid på siden"
+
+#~ msgid "Page views"
+#~ msgstr "Sidevisninger"
+
+#~ msgid "% New sessions"
+#~ msgstr "% nye økter"
+
+#~ msgid "New vs Returning visitors"
+#~ msgstr "Ny vs returnerende"
+
+#~ msgid "Did you know that total time on your site is"
+#~ msgstr "Den totale tiden brukt på nettsiden er"
+
+#~ msgid "Views"
+#~ msgstr "Visninger"
+
+#~ msgid "Top pages by views."
+#~ msgstr "Sider"
+
+#~ msgid "Title"
+#~ msgstr "Tittel"
+
+#~ msgid "Reffers"
+#~ msgstr "Henvisninger"
+
+#~ msgid "Social Media"
+#~ msgstr "sosiale medier"
