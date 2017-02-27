@@ -4,7 +4,7 @@ Donate link: https://analytify.io/
 Tags: dashboard, Analytics, Google Analytics, Statistics, widget, analytify, googleanalytics, insights, wordpress analytics, tracking, google analytics realtime,
 Requires at least: 3.0.1
 Tested up to: 4.7.2
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,26 +21,28 @@ Google Analytics Dashboard widget is a Free Add-on for Google Analytics by Analy
 >
 
 ###### Following are the important add-ons which empower you to setup Google Analytics like a Boss. It really helps to your clients, online stores etc
-<br>
+
 * [Google Analytics eCommerce Tracking for WooCommerce](https://analytify.io/add-ons/woocommerce/)
 * [Google Analytics eCommerce Tracking for Easy Digital Downloads](https://analytify.io/add-ons/easy-digital-downloads/)
 * [Automated Email Notifications](https://analytify.io/add-ons/email-notifications/)
 * [Google Analytics Campaigns Tracking](https://analytify.io/add-ons/campaigns/)
 
 ###### Following is a Complete Hierarchy Structure of Analytify Products Suite.
-<br>
+
 * Analytify Core (`Free` and Required for all add-ons)
-    * Dashboard widget (`Free`)
+    *[Dashboard widget](https://analytify.io/add-ons/google-analytics-dashboard-widget-wordpress/) (`Free`)
     * Analytify Pro (*Paid*)
         * Campaigns Tracking (*Paid*)
         * Email Notifications (*Paid*)
         * ECommerce Tracking for WooCommerce (*Paid*)
         * ECommerce Tracking for Easy Digital Downloads (*Paid*)
 
+> 100% Multilingual & Translateable <br />
+> WPML Compatible <br />
 
-> Compatibility Checks
-* Multilingual & Translateable
-* WPML Compatible
+Available in Following languages: <br />
+* German 97%
+* Norwegian 75%
 
 == Installation ==
 
@@ -66,6 +68,10 @@ First, you need to Authenticate your GA account then you can select your web pro
 
 == Changelog ==
 
+= 1.0.4 =
+* Enhancement: Norwegian language added.
+* Enhancement: German language completed.
+
 = 1.0.3 =
 * bugfix: deploy script assets issue fixed.
 
@@ -84,5 +90,5 @@ Initial Release.
 
 == Upgrade Notice ==
 
-= 1.0.3 =
-Must update release. Multilingual update, fixed issues with Translation strings.
+= 1.0.4 =
+Must update release. Multilingual update, German translation completed and Norwegian added.
