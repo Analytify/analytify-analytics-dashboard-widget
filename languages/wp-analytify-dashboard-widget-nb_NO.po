@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Analytify - Analytics Dashboard widget\n"
-"POT-Creation-Date: 2017-02-21 16:19+0500\n"
-"PO-Revision-Date: 2017-02-21 16:19+0500\n"
+"POT-Creation-Date: 2017-03-02 11:34+0500\n"
+"PO-Revision-Date: 2017-03-02 11:34+0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nb\n"
@@ -22,23 +22,23 @@ msgstr ""
 
 #: analytify-dashboard-addon.php:27 wp-analytify-dashboard.php:93
 msgid "Google Analytics Dashboard By Analytify"
-msgstr ""
+msgstr "Kontrollpanel for Google Analytics"
 
 #: analytify-dashboard-addon.php:65
 msgid "View Stats"
-msgstr ""
+msgstr "Se statistikk"
 
 #: analytify-dashboard-addon.php:68
 msgid "Top pages"
-msgstr ""
+msgstr "Sider"
 
 #: analytify-dashboard-addon.php:69
 msgid "Top Countries"
-msgstr ""
+msgstr "Land"
 
 #: analytify-dashboard-addon.php:70
 msgid "Top Cities"
-msgstr ""
+msgstr "Byer"
 
 #: analytify-dashboard-addon.php:71 views/admin/top-keywords-stats.php:15
 msgid "Keywords"
@@ -49,7 +49,7 @@ msgid "Select a custom date"
 msgstr "Velg egendefinert dato"
 
 #: analytify-dashboard-addon.php:101
-msgid "Select the Profie"
+msgid "Select the Profile"
 msgstr "Velg profil"
 
 #: analytify-dashboard-addon.php:104
@@ -93,14 +93,16 @@ msgid ""
 "Google Analytics by Analytify is required to run Google Analytics dashboard "
 "widget."
 msgstr ""
+"Google Analytics av Analytify er påkrevd for at denne utvidelsen skal "
+"fungere."
 
 #: wp-analytify-dashboard.php:64
 msgid "Click here to Install Analytify(Core)"
-msgstr ""
+msgstr "Klikk her for å installere Analytify(gratisversjon)."
 
 #: wp-analytify-dashboard.php:80
 msgid "Click here to activate Analytify Core plugin."
-msgstr ""
+msgstr "Klikk her for å aktivere Analytify."
 
 #. Plugin Name of the plugin/theme
 msgid "Analytify - Gooogle Analytics Dashboard widget"
@@ -124,6 +126,9 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "https://analytify.io/"
 msgstr ""
+
+#~ msgid "Select the Profie"
+#~ msgstr "Velg profil"
 
 #~ msgid "Last 30 days"
 #~ msgstr "Siste 30 dager"
