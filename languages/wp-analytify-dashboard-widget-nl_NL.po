@@ -1,0 +1,222 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Analytify - Analytics Dashboard widget\n"
+"POT-Creation-Date: 2017-03-02 11:26+0500\n"
+"PO-Revision-Date: 2017-03-02 11:27+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wp-analytify-dashboard.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: analytify-dashboard-addon.php:27 wp-analytify-dashboard.php:93
+msgid "Google Analytics Dashboard By Analytify"
+msgstr "Google Analytics Dashboard van Analytify"
+
+#: analytify-dashboard-addon.php:65
+msgid "View Stats"
+msgstr ""
+
+#: analytify-dashboard-addon.php:68
+msgid "Top pages"
+msgstr ""
+
+#: analytify-dashboard-addon.php:69
+msgid "Top Countries"
+msgstr ""
+
+#: analytify-dashboard-addon.php:70
+msgid "Top Cities"
+msgstr ""
+
+#: analytify-dashboard-addon.php:71 views/admin/top-keywords-stats.php:15
+msgid "Keywords"
+msgstr "Keywords"
+
+#: analytify-dashboard-addon.php:91
+msgid "Select a custom date"
+msgstr "Aangepaste datum kiezen"
+
+#: analytify-dashboard-addon.php:101
+msgid "Select the Profile"
+msgstr "Kies het profiel"
+
+#: analytify-dashboard-addon.php:104
+msgid "Connect your Google account with Analytify"
+msgstr "Koppel uw Google account aan Analytify"
+
+#: views/admin/general-stats.php:69
+msgid "AVERAGE PAGES"
+msgstr "GEMIDDELD AANTAL PAGINA'S"
+
+#: views/admin/top-cities-stats.php:8
+msgid "Top cities by views."
+msgstr "Top steden op basis van weergaven"
+
+#: views/admin/top-cities-stats.php:15
+msgid "Cities"
+msgstr "Steden"
+
+#: views/admin/top-countries-stats.php:8
+msgid "Top countries by views."
+msgstr "Top landen op basis weergaven"
+
+#: views/admin/top-countries-stats.php:15
+msgid "Countries"
+msgstr "Landen"
+
+#: views/admin/top-keywords-stats.php:8
+msgid "Top keywords by views."
+msgstr "Top keywords op basis weergaven"
+
+#: views/admin/top-reffers-stats.php:8
+msgid "Top reffers by views."
+msgstr "Top doorverwijzingen op basis weergaven"
+
+#: views/admin/top-socialmedia-stats.php:8
+msgid "Top social media by views."
+msgstr "Top sociale media op basis weergaven"
+
+#: wp-analytify-dashboard.php:64 wp-analytify-dashboard.php:80
+msgid ""
+"Google Analytics by Analytify is required to run Google Analytics dashboard "
+"widget."
+msgstr ""
+
+#: wp-analytify-dashboard.php:64
+msgid "Click here to Install Analytify(Core)"
+msgstr ""
+
+#: wp-analytify-dashboard.php:80
+msgid "Click here to activate Analytify Core plugin."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Analytify - Gooogle Analytics Dashboard widget"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://analytify.io/add-ons/google-analytics-dashboard-widget-wordpress/"
+msgstr ""
+"https://analytify.io/add-ons/google-analytics-dashboard-widget-wordpress/"
+
+#. Description of the plugin/theme
+msgid ""
+"It is a Free Add-on for Analytify plugin to show Google Analytics widget at "
+"WordPress dashboard. This is developed on the requests of our users."
+msgstr ""
+"Het is een gratis uitbreiding voor de Analytify plug-in om de Google "
+"Analytics widget op de WordPress dashboard te tonen. Het is ontwikkeld op "
+"verzoek van onze gebruikers."
+
+#. Author of the plugin/theme
+msgid "ANALYTIFY LLC"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://analytify.io/"
+msgstr "https://analytify.io/"
+
+#~ msgid "Last 30 days"
+#~ msgstr "Afgelopen 30 dagen"
+
+#~ msgid "This month"
+#~ msgstr "Deze maand"
+
+#~ msgid "Last month"
+#~ msgstr "Afgelopen maand"
+
+#~ msgid "Last 3 months"
+#~ msgstr "Afgelopen 3 maanden"
+
+#~ msgid "Last 6 months"
+#~ msgstr "Afgelopen 6 maanden"
+
+#~ msgid "Last year"
+#~ msgstr "Afgelopen jaar"
+
+#~ msgid "Custom Range"
+#~ msgstr "Aangepaste periode"
+
+#~ msgid "Select the Profie"
+#~ msgstr "Kies het profiel"
+
+#~ msgid "General Statistics"
+#~ msgstr "Algemene Statistieken"
+
+#~ msgid "Sessions"
+#~ msgstr "Sessies"
+
+#~ msgid "visitors"
+#~ msgstr "Bezoekers"
+
+#~ msgid "Bounce rate"
+#~ msgstr "Bouncepercentage"
+
+#~ msgid "Avg. time on Page"
+#~ msgstr "Gem. tijd op Pagina"
+
+#~ msgid "Page views"
+#~ msgstr "Paginaweergaven"
+
+#~ msgid "% New sessions"
+#~ msgstr "% Nieuwe sessies"
+
+#~ msgid "New vs Returning visitors"
+#~ msgstr "Nieuw vs Terugkerende bezoekers"
+
+#~ msgid "Did you know that total time on your site is"
+#~ msgstr "De totale tijd doorgebracht op uw site is"
+
+#~ msgid "Views"
+#~ msgstr "Weergaven"
+
+#~ msgid "Top pages by views."
+#~ msgstr "Top pagina's op basis weergaven"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Reffers"
+#~ msgstr "Doorverwijzers"
+
+#~ msgid "Social Media"
+#~ msgstr "Sociale Media"
+
+#~ msgid ""
+#~ "Analytify Dashboard addon works with Analytify Free plugin. Please "
+#~ "Install Analytify Free version. "
+#~ msgstr ""
+#~ "Analytify Dashboard addon werkt met Analytify Free plug-in. Installeer a."
+#~ "u.b. de gratis Analytify-versie. "
+
+#~ msgid "Click Here"
+#~ msgstr "Klik Hier"
+
+#~ msgid ""
+#~ "Analytify Dashboard addon works with the Analytify Free plugin. Please "
+#~ "activate "
+#~ msgstr ""
+#~ "Analytify Dashboard addon werkt met de Analytify Free plug-in. Activeer a."
+#~ "u.b. "
+
+#~ msgid "Analytify Free."
+#~ msgstr "Analytify Free."
+
+#~ msgid "Analytify - Analytics Dashboard widget"
+#~ msgstr "Analytify - Analytics Dashboard widget"
+
+#~ msgid "Analytify"
+#~ msgstr "Analytify"

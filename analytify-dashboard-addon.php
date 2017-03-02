@@ -98,7 +98,7 @@ if ( ! class_exists( 'Analytify_Dashboard_Addon' ) ) {
 					</div>
 					<?php
 				} else {
-					echo __( 'Select the Profie', 'wp-analytify-dashboard-widget' );
+					echo __( 'Select the Profile', 'wp-analytify-dashboard-widget' );
 				}
 			} else {
 				echo __( 'Connect your Google account with Analytify', 'wp-analytify-dashboard-widget' );
