@@ -70,6 +70,7 @@ First, you need to Authenticate your GA account then you can select your web pro
 
 = 1.0.5 =
 * bugfix: Privileges bug fixed.
+* bugfix: New vs Returning stats fixed.
 
 = 1.0.4 =
 * Enhancement: Norwegian language added.

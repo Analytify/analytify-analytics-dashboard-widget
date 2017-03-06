@@ -134,11 +134,18 @@ if ( ! class_exists( 'Analytify_Dashboard_Addon' ) ) {
 									$stats = get_transient( md5( 'show-overall-dashboard' . $dashboard_profile_id . $start_date . $end_date ) );
 									if ( $stats === false ) {
 										$stats = $wp_analytify->pa_get_analytics_dashboard( 'ga:sessions,ga:bounces,ga:newUsers,ga:entrances,ga:pageviews,ga:sessionDuration,ga:avgTimeOnPage,ga:users', $start_date, $end_date );
-										set_transient( md5( 'show-overall-dashboard' . $start_date . $end_date ) , $stats, 60 * 60 * 20 );
+										set_transient( md5( 'show-overall-dashboard' . $dashboard_profile_id . $start_date . $end_date ) , $stats, 60 * 60 * 20 );
+									}
+
+									// New vs Returning Users
+									$new_returning_stats = get_transient( md5( 'show-default-new-returning-dashboard' . $dashboard_profile_ID . $start_date . $end_date ) );
+									if ( $new_returning_stats === false ) {
+										$new_returning_stats = $wp_analytify->pa_get_analytics_dashboard( 'ga:sessions', $start_date, $end_date, 'ga:userType' );
+										set_transient( md5( 'show-default-new-returning-dashboard' . $dashboard_profile_ID . $start_date . $end_date ) , $new_returning_stats, 60 * 60 * 20 );
 									}
 
 									include ANALYTIFY_DASHBOARD_ROOT_PATH . '/views/admin/general-stats.php';
-									pa_include_general( $wp_analytify, $stats );
+									pa_include_general( $wp_analytify, $stats, $new_returning_stats );
 
 								} else if( 'top-pages-by-views' === $stats_type ) {
 

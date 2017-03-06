@@ -4,7 +4,10 @@
  * View of General Statistics
  */
 
-function pa_include_general( $current, $stats) {
+function pa_include_general( $current, $stats, $new_returning_stats ) {
+
+  $new_users 				= $new_returning_stats->rows[0][1];
+  $returning_users 	= $new_returning_stats->rows[1][1];
 ?>
     <div class="analytify_general_status analytify_status_box_wraper">
       <div class="analytify_status_header">
@@ -121,7 +124,7 @@ function pa_include_general( $current, $stats) {
 
           <div class="analytify_general_status_boxes">
             <h4><?php analytify_e( 'New vs Returning visitors', 'wp-analytify' ); ?></h4>
-                <?php echo "<span class='analytify_general_stats_value'>" . $stats->totalsForAllResults['ga:newUsers']. "</span> vs <span class='analytify_general_stats_value'>" . ( $stats->totalsForAllResults['ga:users'] -   $stats->totalsForAllResults['ga:newUsers'] ) . "</span>" ?>
+                <?php echo "<span class='analytify_general_stats_value'>" . $new_users . "</span> vs <span class='analytify_general_stats_value'>" . $returning_users . "</span>" ?>
 
           </div>
 
