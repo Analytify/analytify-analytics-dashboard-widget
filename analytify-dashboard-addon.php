@@ -6,6 +6,10 @@ if ( ! class_exists( 'Analytify_Dashboard_Addon' ) ) {
 
 		public function __construct() {
 
+		var_dump($this->is_access());
+
+			if ( ! $this->is_access() ) { return; }
+			
 			add_action( 'wp_dashboard_setup', array( $this, 'add_analytify_widget' ) );
 
 
@@ -216,7 +220,13 @@ if ( ! class_exists( 'Analytify_Dashboard_Addon' ) ) {
 						wp_die();
 					}
 
-				}
+					function is_access() {
+						$is_access_level = $GLOBALS['WP_ANALYTIFY']->settings->get_option( 'show_analytics_roles_dashboard','wp-analytify-dashboard', array( 'administrator' ) );
+
+						return	$GLOBALS['WP_ANALYTIFY']->pa_check_roles( $is_access_level );
+					}
+
+				} // End of class.
 			}
 
 

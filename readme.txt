@@ -68,6 +68,9 @@ First, you need to Authenticate your GA account then you can select your web pro
 
 == Changelog ==
 
+= 1.0.5 =
+* bugfix: Privileges bug fixed.
+
 = 1.0.4 =
 * Enhancement: Norwegian language added.
 * Enhancement: German language completed.
