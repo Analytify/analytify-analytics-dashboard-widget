@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Domain Path: /languages
  */
 
-define( 'ANALYTIFY_DASHBOARD_VERSION', '1.0.4' );
+define( 'ANALYTIFY_DASHBOARD_VERSION', '1.0.5' );
 define( 'ANALYTIFY_DASHBOARD_ROOT_PATH', dirname( __FILE__ ) );
 
 
