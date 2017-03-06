@@ -4,7 +4,7 @@ Donate link: https://analytify.io/
 Tags: dashboard, Analytics, Google Analytics, Statistics, widget, analytify, googleanalytics, insights, wordpress analytics, tracking, google analytics realtime,
 Requires at least: 3.0.1
 Tested up to: 4.7.2
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,9 +40,11 @@ Google Analytics Dashboard widget is a Free Add-on for Google Analytics by Analy
 > 100% Multilingual & Translateable <br />
 > WPML Compatible <br />
 
-Available in Following languages: <br />
+###### Available in Following languages:
+
 * German 97%
 * Norwegian 75%
+* Dutch 92%
 
 == Installation ==
 
@@ -69,6 +71,8 @@ First, you need to Authenticate your GA account then you can select your web pro
 == Changelog ==
 
 = 1.0.5 =
+* Enhancement: Dutch language added.
+* Enhancement: Norwegian language updated.
 * bugfix: Privileges bug fixed.
 * bugfix: New vs Returning stats fixed.
 
@@ -82,7 +86,7 @@ First, you need to Authenticate your GA account then you can select your web pro
 = 1.0.2 =
 * bugfix: Changed text-domain for Translation mangement.
 * bugfix: fixed issues with Translation strings.
-* Enhancement: Dutch language.
+* Enhancement: German language.
 
 = 1.0.1 =
 * Multilingual and WPML compatible.
@@ -94,5 +98,5 @@ Initial Release.
 
 == Upgrade Notice ==
 
-= 1.0.4 =
-Must update release. Multilingual update, German translation completed and Norwegian added.
+= 1.0.5 =
+Must update release. Multilingual update, Dutch language added, Norwegian updated and multiple bugfixes.
