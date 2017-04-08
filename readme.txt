@@ -1,9 +1,9 @@
-=== Google Analytics Dashboard widget ===
+=== Google Analytics Dashboard Widget by Analytify ===
 Contributors: hiddenpearls
 Donate link: https://analytify.io/
 Tags: dashboard, Analytics, Google Analytics, Statistics, widget, analytify, googleanalytics, insights, wordpress analytics, tracking, google analytics realtime,
 Requires at least: 3.0.1
-Tested up to: 4.7.2
+Tested up to: 4.7
 Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html

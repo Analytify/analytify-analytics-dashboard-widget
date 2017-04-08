@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Version: 1.0.5
  * License: GPLv3 or later
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
- * Author: ANALYTIFY LLC
+ * Author: Analytify
  * Author URI: https://analytify.io/
  * Text Domain: wp-analytify-dashboard-widget
  * Domain Path: /languages
