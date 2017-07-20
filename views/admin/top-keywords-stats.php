@@ -5,14 +5,14 @@ function pa_include_keywords_stats( $current, $top_stats ) {
 ?>
 		<div class="analytify_general_status analytify_status_box_wraper">
 	  	<div class="analytify_status_header">
-			<h3><?php _e( 'Top keywords by views.', 'wp-analytify-dashboard-widget' ); ?></h3>
+			<h3><?php _e( 'Top keywords by views.', 'analytify-analytics-dashboard-widget' ); ?></h3>
 	  	</div>
 	  	<div class="analytify_status_body">
 			<table class="analytify_data_tables wp_analytify_paginated">
 				<thead>
 					<tr>
 						<th class="analytify_num_row">#</th>
-						<th class="analytify_txt_left"><?php esc_html_e( 'Keywords', 'wp-analytify-dashboard-widget' ); ?></th>
+						<th class="analytify_txt_left"><?php esc_html_e( 'Keywords', 'analytify-analytics-dashboard-widget' ); ?></th>
 						<th class="analytify_value_row"><?php analytify_e( 'Views', 'wp-analytify' ); ?></th>
 					</tr>
 				</thead>

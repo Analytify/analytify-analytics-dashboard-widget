@@ -69,7 +69,7 @@ function pa_include_general( $current, $stats, $new_returning_stats ) {
 
 
           <div class="analytify_general_status_boxes">
-            <h4><?php echo _e('AVERAGE PAGES' , 'wp-analytify-dashboard-widget')?></h4>
+            <h4><?php echo _e('AVERAGE PAGES' , 'analytify-analytics-dashboard-widget')?></h4>
             <div class="analytify_general_stats_value">
                 <?php
                   if ($stats->totalsForAllResults['ga:sessions'] <= 0) {

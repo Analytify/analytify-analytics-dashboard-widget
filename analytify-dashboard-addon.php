@@ -26,7 +26,7 @@ if ( ! class_exists( 'Analytify_Dashboard_Addon' ) ) {
 
 		public function add_analytify_widget() {
 
-			wp_add_dashboard_widget( 'analytify-dashboard-addon', __( 'Google Analytics Dashboard By Analytify', 'wp-analytify-dashboard-widget' ), array( $this, 'wpa_general_dashboard_area' ), null , null );
+			wp_add_dashboard_widget( 'analytify-dashboard-addon', __( 'Google Analytics Dashboard By Analytify', 'analytify-analytics-dashboard-widget' ), array( $this, 'wpa_general_dashboard_area' ), null , null );
 
 		}
 
@@ -64,13 +64,13 @@ if ( ! class_exists( 'Analytify_Dashboard_Addon' ) ) {
 													'' ?>">
 												<div class="analytify_arrow_date_picker"></div>
 											</div>
-											<input type="submit" value="<?php _e( 'View Stats', 'wp-analytify-dashboard-widget' ) ?>" name="view_data" class="analytify_submit_date_btn">
+											<input type="submit" value="<?php _e( 'View Stats', 'analytify-analytics-dashboard-widget' ) ?>" name="view_data" class="analytify_submit_date_btn">
 											<select  id="analytify_dashboard_stats_type">
 												<option value="general-statistics"><?php analytify_e( 'General Statistics', 'wp-analytify' ) ?></option>
-												<option value="top-pages-by-views"><?php _e( 'Top pages', 'wp-analytify-dashboard-widget' ) ?></option>
-												<option value="top-countries"><?php _e( 'Top Countries', 'wp-analytify-dashboard-widget' ) ?></option>
-												<option value="top-cities"><?php _e( 'Top Cities', 'wp-analytify-dashboard-widget' ) ?></option>
-												<option value="keywords"><?php _e( 'Keywords', 'wp-analytify-dashboard-widget' ) ?></option>
+												<option value="top-pages-by-views"><?php _e( 'Top pages', 'analytify-analytics-dashboard-widget' ) ?></option>
+												<option value="top-countries"><?php _e( 'Top Countries', 'analytify-analytics-dashboard-widget' ) ?></option>
+												<option value="top-cities"><?php _e( 'Top Cities', 'analytify-analytics-dashboard-widget' ) ?></option>
+												<option value="keywords"><?php _e( 'Keywords', 'analytify-analytics-dashboard-widget' ) ?></option>
 												<option value="social-media"><?php analytify_e( 'Social Media', 'wp-analytify' ) ?></option>
 												<option value="top-reffers"><?php analytify_e( 'Top Referrers', 'wp-analytify' ) ?></option>
 											</select>
@@ -100,10 +100,10 @@ if ( ! class_exists( 'Analytify_Dashboard_Addon' ) ) {
 					</div>
 					<?php
 				} else {
-					echo __( 'Select the Profile', 'wp-analytify-dashboard-widget' );
+					echo __( 'Select the Profile', 'analytify-analytics-dashboard-widget' );
 				}
 			} else {
-				echo __( 'Connect your Google account with Analytify', 'wp-analytify-dashboard-widget' );
+				echo __( 'Connect your Google account with Analytify', 'analytify-analytics-dashboard-widget' );
 			}
 		}
 

@@ -5,7 +5,7 @@ function pa_include_socialmedia_stats( $current, $top_stats ) {
 ?>
 		<div class="analytify_general_status analytify_status_box_wraper">
 	  	<div class="analytify_status_header">
-			<h3><?php _e( 'Top social media by views.', 'wp-analytify-dashboard-widget' ); ?></h3>
+			<h3><?php _e( 'Top social media by views.', 'analytify-analytics-dashboard-widget' ); ?></h3>
 	  	</div>
 	  	<div class="analytify_status_body">
 			<table class="analytify_data_tables">
