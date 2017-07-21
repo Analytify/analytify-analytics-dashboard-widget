@@ -3,8 +3,8 @@ Contributors: hiddenpearls
 Donate link: https://analytify.io/
 Tags: dashboard, Analytics, Google Analytics, Statistics, widget, analytify, googleanalytics, insights, wordpress analytics, tracking, google analytics realtime,
 Requires at least: 3.0.1
-Tested up to: 4.7
-Stable tag: 1.0.5
+Tested up to: 4.8
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -70,6 +70,10 @@ First, you need to Authenticate your GA account then you can select your web pro
 
 == Changelog ==
 
+= 1.0.6 =
+* bugfix: text-domain update for multilingual translations at wordpress.org
+* Enhancement: Compatibility with 4.8
+
 = 1.0.5 =
 * Enhancement: Dutch language added.
 * Enhancement: Norwegian language updated.
@@ -98,5 +102,5 @@ Initial Release.
 
 == Upgrade Notice ==
 
-= 1.0.5 =
-Must update release. Multilingual update, Dutch language added, Norwegian updated and multiple bugfixes.
+= 1.0.6 =
+Must update release. Compatible with 4.8 and Ready to translate at wordpress.org
