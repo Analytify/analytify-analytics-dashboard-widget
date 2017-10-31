@@ -1,16 +1,23 @@
 # Google Analytics Dashboard Widget by Analytify
 Contributors: hiddenpearls
+
 Donate link: https://analytify.io/
-Tags: dashboard, Analytics, Google Analytics, Statistics, widget, analytify, googleanalytics, insights, wordpress analytics, tracking, google analytics realtime,
+
+Tags: `Dashboard, Analytics, Google Analytics, Statistics, widget, analytify, googleanalytics, insights, WordPress analytics, tracking, google analytics realtime,`
+
 Requires at least: 3.0.1
+
 Tested up to: 4.8
+
 Stable tag: 1.0.6
+
 License: GPLv2 or later
+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Google Analytics Dashboard widget is a Free Add-on for Google Analytics by Analytify plugin to show Google Analytics widget at WordPress dashboard.
 
-Index
+#### Index
 ------
 - [Description](#description)
 - [Installation](#installation)
