@@ -138,10 +138,10 @@ if ( ! class_exists( 'Analytify_Dashboard_Addon' ) ) {
 									}
 
 									// New vs Returning Users
-									$new_returning_stats = get_transient( md5( 'show-default-new-returning-dashboard' . $dashboard_profile_ID . $start_date . $end_date ) );
+									$new_returning_stats = get_transient( md5( 'show-default-new-returning-dashboard' . $dashboard_profile_id . $start_date . $end_date ) );
 									if ( $new_returning_stats === false ) {
 										$new_returning_stats = $wp_analytify->pa_get_analytics_dashboard( 'ga:sessions', $start_date, $end_date, 'ga:userType' );
-										set_transient( md5( 'show-default-new-returning-dashboard' . $dashboard_profile_ID . $start_date . $end_date ) , $new_returning_stats, 60 * 60 * 20 );
+										set_transient( md5( 'show-default-new-returning-dashboard' . $dashboard_profile_id . $start_date . $end_date ) , $new_returning_stats, 60 * 60 * 20 );
 									}
 
 									include ANALYTIFY_DASHBOARD_ROOT_PATH . '/views/admin/general-stats.php';
