@@ -19,10 +19,10 @@ jQuery(document).ready(function($) {
   function ajax_request(){
 
     var  s_date = $("#analytify_start").val();
-         s_date = moment(s_date).format("YYYY-MM-DD");
+         s_date = moment(s_date, 'MMM DD, YYYY').format("YYYY-MM-DD");
 
     var en_date = $("#analytify_end").val();
-        en_date =  moment(en_date).format("YYYY-MM-DD");
+        en_date =  moment(en_date, 'MMM DD, YYYY').format("YYYY-MM-DD");
 
     var  stats_type  = $("#analytify_dashboard_stats_type").val();
 
