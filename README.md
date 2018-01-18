@@ -7,9 +7,9 @@ Tags: `Dashboard, Analytics, Google Analytics, Statistics, widget, analytify, go
 
 Requires at least: 3.0.1
 
-Tested up to: 4.8
+Tested up to: 4.9
 
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 
 License: GPLv2 or later
 
@@ -85,37 +85,42 @@ First, you need to Authenticate your GA account then you can select your web pro
 
 ## Changelog
 
-= 1.0.6 =
+### 1.0.7 - 2018-01-18 ###
+* bugfix: moment-js deprecation warning
+* bugfix: undefine notice issue
+* Compatibility: Compatible with WordPress 4.9.
+
+### 1.0.6 ###
 * bugfix: text-domain update for multilingual translations at wordpress.org
 * Enhancement: Compatibility with 4.8
 
-= 1.0.5 =
+### 1.0.5 ###
 * Enhancement: Dutch language added.
 * Enhancement: Norwegian language updated.
 * bugfix: Privileges bug fixed.
 * bugfix: New vs Returning stats fixed.
 
-= 1.0.4 =
+### 1.0.4 ###
 * Enhancement: Norwegian language added.
 * Enhancement: German language completed.
 
-= 1.0.3 =
+### 1.0.3 ###
 * bugfix: deploy script assets issue fixed.
 
-= 1.0.2 =
+### 1.0.2 ###
 * bugfix: Changed text-domain for Translation mangement.
 * bugfix: fixed issues with Translation strings.
 * Enhancement: German language.
 
-= 1.0.1 =
+### 1.0.1 ###
 * Multilingual and WPML compatible.
 * Language .pot file generated.
 * Changed admin notices to help users in installing core version of Analytify.
 
-= 1.0.0 =
+### 1.0.0 ###
 Initial Release.
 
 ## Upgrade Notice
 
-= 1.0.6 =
-Must update release. Compatible with 4.8 and Ready to translate at wordpress.org
+= 1.0.7 =
+Bug fix release and Compatible with 4.9
