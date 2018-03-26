@@ -74,24 +74,7 @@ if ( ! class_exists( 'Analytify_Dashboard_Addon' ) ) {
 												<option value="social-media"><?php analytify_e( 'Social Media', 'wp-analytify' ) ?></option>
 												<option value="top-reffers"><?php analytify_e( 'Top Referrers', 'wp-analytify' ) ?></option>
 											</select>
-											<ul class="analytify_select_date_list">
-												<li><?php analytify_e( 'Last 30 days', 'wp-analytify' )?> <span data-start="" data-end=""><span class="analytify_start_date_data analytify_last_30_day"></span> – <span class="analytify_end_date_data analytify_today_date"></span></span></li>
-
-												<li><?php analytify_e( 'This month', 'wp-analytify' )?> <span data-start="" data-end=""><span class="analytify_start_date_data analytify_this_month_start_date"></span> – <span class="analytify_end_date_data analytify_today_date"></span></span></li>
-
-												<li><?php analytify_e( 'Last month', 'wp-analytify' )?> <span data-start="" data-end=""><span class="analytify_start_date_data analytify_last_month_start_date"></span> – <span class="analytify_end_date_data analytify_last_month_end_date"></span></span></li>
-
-
-												<li><?php analytify_e( 'Last 3 months', 'wp-analytify' )?> <span data-start="" data-end=""><span class="analytify_start_date_data analytify_last_3_months_start_date"></span> – <span class="analytify_end_date_data analytify_last_month_end_date"></span></span></li>
-
-												<li><?php analytify_e( 'Last 6 months', 'wp-analytify' )?>  <span data-start="" data-end=""><span class="analytify_start_date_data analytify_last_6_months_start_date"></span> – <span class="analytify_end_date_data analytify_last_month_end_date"></span></span></li>
-
-
-												<li><?php analytify_e( 'Last year', 'wp-analytify' )?> <span data-start="" data-end=""><span class="analytify_start_date_data analytify_last_year_start_date"></span> – <span class="analytify_end_date_data analytify_last_month_end_date"></span></span></li>
-
-
-												<li><?php analytify_e( 'Custom Range', 'wp-analytify' )?> <span class="custom_range"><?php _e( 'Select a custom date', 'wp-analytify' )?></span></li>
-											</ul>
+											<?php echo WPANALYTIFY_Utils::get_date_list() ?>
 										</form>
 									</div>
 								</div>
