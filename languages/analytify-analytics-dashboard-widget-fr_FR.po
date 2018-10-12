@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: Analytify - Gooogle Analytics Dashboard widget\n"
+"POT-Creation-Date: 2017-07-20 12:23+0500\n"
+"PO-Revision-Date: 2018-10-11 11:09+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-analytify-dashboard.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: analytify-dashboard-addon.php:29 wp-analytify-dashboard.php:93
+msgid "Google Analytics Dashboard By Analytify"
+msgstr "Tableau de bord Google Analytics par Analytify"
+
+#: analytify-dashboard-addon.php:67
+msgid "View Stats"
+msgstr "Afficher statistiques"
+
+#: analytify-dashboard-addon.php:70
+msgid "Top pages"
+msgstr "Meilleures pages"
+
+#: analytify-dashboard-addon.php:71
+msgid "Top Countries"
+msgstr "Meilleurs pays"
+
+#: analytify-dashboard-addon.php:72
+msgid "Top Cities"
+msgstr "Meilleures villes"
+
+#: analytify-dashboard-addon.php:73 views/admin/top-keywords-stats.php:15
+msgid "Keywords"
+msgstr "Mots-clés"
+
+#: analytify-dashboard-addon.php:93
+msgid "Select a custom date"
+msgstr "Définir une plage de temps"
+
+#: analytify-dashboard-addon.php:103
+msgid "Select the Profile"
+msgstr "Choisir le profil"
+
+#: analytify-dashboard-addon.php:106
+msgid "Connect your Google account with Analytify"
+msgstr "Connectez votre compte Google avec Analytify"
+
+#: views/admin/general-stats.php:72
+msgid "AVERAGE PAGES"
+msgstr "PAGES INTERMEDIAIRES"
+
+#: views/admin/top-cities-stats.php:8
+msgid "Top cities by views."
+msgstr "Meilleures villes (vues)"
+
+#: views/admin/top-cities-stats.php:15
+msgid "Cities"
+msgstr "Villes"
+
+#: views/admin/top-countries-stats.php:8
+msgid "Top countries by views."
+msgstr "Meilleurs pays (vues)"
+
+#: views/admin/top-countries-stats.php:15
+msgid "Countries"
+msgstr "Pays"
+
+#: views/admin/top-keywords-stats.php:8
+msgid "Top keywords by views."
+msgstr "Meilleurs mots clés (vues)."
+
+#: views/admin/top-reffers-stats.php:8
+msgid "Top reffers by views."
+msgstr "Meilleurs sites référents (vues)."
+
+#: views/admin/top-socialmedia-stats.php:8
+msgid "Top social media by views."
+msgstr "Meilleurs réseaux sociaux (vues)."
+
+#: wp-analytify-dashboard.php:64 wp-analytify-dashboard.php:80
+msgid ""
+"Google Analytics by Analytify is required to run Google Analytics dashboard "
+"widget."
+msgstr ""
+"Google Analytics par Analytify est nécessaire pour le widget Google "
+"Analytics."
+
+#: wp-analytify-dashboard.php:64
+msgid "Click here to Install Analytify(Core)"
+msgstr "Cliquez ici pour installer Analytify (cœur)"
+
+#: wp-analytify-dashboard.php:80
+msgid "Click here to activate Analytify Core plugin."
+msgstr "Cliquez ici pour activer le plugin cœur Analytify."
+
+#. Plugin Name of the plugin/theme
+msgid "Analytify - Gooogle Analytics Dashboard widget"
+msgstr "Analytify - widget pour Google Analytics Dashboard"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://analytify.io/add-ons/google-analytics-dashboard-widget-wordpress/"
+msgstr ""
+"https://analytify.io/add-ons/google-analytics-dashboard-widget-wordpress/"
+
+#. Description of the plugin/theme
+msgid ""
+"It is a Free Add-on for Analytify plugin to show Google Analytics widget at "
+"WordPress dashboard. This is developed on the requests of our users."
+msgstr ""
+"Ceci est un plugin gratuit pour Analytify permettant d'afficher le widget "
+"Analytify sur le tableau de bord WordPress. Nous l'avons développé à la "
+"demande de nos utilisateurs."
+
+#. Author of the plugin/theme
+msgid "Analytify"
+msgstr "Analytify"
+
+#. Author URI of the plugin/theme
+msgid "https://analytify.io/"
+msgstr "https://analytify.io/"
