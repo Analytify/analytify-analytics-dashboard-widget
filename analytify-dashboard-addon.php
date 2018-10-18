@@ -114,90 +114,71 @@ if ( ! class_exists( 'Analytify_Dashboard_Addon' ) ) {
 								$dashboard_profile_id = $_analytify_profile['profile_for_dashboard'];
 
 								if ( 'general-statistics' === $stats_type ) {
-									$stats = get_transient( md5( 'show-overall-dashboard' . $dashboard_profile_id . $start_date . $end_date ) );
-									if ( $stats === false ) {
-										$stats = $wp_analytify->pa_get_analytics_dashboard( 'ga:sessions,ga:bounces,ga:newUsers,ga:entrances,ga:pageviews,ga:sessionDuration,ga:avgTimeOnPage,ga:users', $start_date, $end_date );
-										set_transient( md5( 'show-overall-dashboard' . $dashboard_profile_id . $start_date . $end_date ) , $stats, 60 * 60 * 20 );
-									}
+
+									$stats = $wp_analytify->pa_get_analytics_dashboard( 'ga:sessions,ga:bounces,ga:newUsers,ga:entrances,ga:pageviews,ga:sessionDuration,ga:avgTimeOnPage,ga:users', $start_date, $end_date, false, false, false, false, 'widget-show-overall-dashboard' );
 
 									// New vs Returning Users
-									$new_returning_stats = get_transient( md5( 'show-default-new-returning-dashboard' . $dashboard_profile_id . $start_date . $end_date ) );
-									if ( $new_returning_stats === false ) {
-										$new_returning_stats = $wp_analytify->pa_get_analytics_dashboard( 'ga:sessions', $start_date, $end_date, 'ga:userType' );
-										set_transient( md5( 'show-default-new-returning-dashboard' . $dashboard_profile_id . $start_date . $end_date ) , $new_returning_stats, 60 * 60 * 20 );
-									}
+									$new_returning_stats = $wp_analytify->pa_get_analytics_dashboard( 'ga:sessions', $start_date, $end_date, 'ga:userType', false, false, false, 'widget-show-default-new-returning-dashboard' );
 
-									include ANALYTIFY_DASHBOARD_ROOT_PATH . '/views/admin/general-stats.php';
-									pa_include_general( $wp_analytify, $stats, $new_returning_stats );
+									if ( $stats ) {
+										include ANALYTIFY_DASHBOARD_ROOT_PATH . '/views/admin/general-stats.php';
+										pa_include_general( $wp_analytify, $stats, $new_returning_stats );
+									}
 
 								} else if( 'top-pages-by-views' === $stats_type ) {
 
-									$top_page_stats = get_transient( md5( 'show-top-pages-dashboard' . $dashboard_profile_id . $start_date . $end_date ) );
-									if ( false === $top_page_stats ) {
-										$top_page_stats = $wp_analytify->pa_get_analytics_dashboard( 'ga:pageviews', $start_date, $end_date, 'ga:PageTitle', '-ga:pageviews', 'ga:pageTitle!=(not set)', 50 );
-										set_transient( md5( 'show-top-pages-dashboard' . $dashboard_profile_id . $start_date . $end_date ) , $top_page_stats, 60 * 60 * 20 );
-									}
+									$top_page_stats = $wp_analytify->pa_get_analytics_dashboard( 'ga:pageviews', $start_date, $end_date, 'ga:PageTitle', '-ga:pageviews', 'ga:pageTitle!=(not set)', 50, 'widget-show-top-pages-dashboard' );
 
-									include ANALYTIFY_DASHBOARD_ROOT_PATH . '/views/admin/top-pages-stats.php';
-									pa_include_top_pages_stats( $wp_analytify, $top_page_stats );
+									if ( $top_page_stats ) {
+										include ANALYTIFY_DASHBOARD_ROOT_PATH . '/views/admin/top-pages-stats.php';
+										pa_include_top_pages_stats( $wp_analytify, $top_page_stats );
+									}
 
 								} else if( 'top-countries' === $stats_type ){
 
-									$top_countries_stats = get_transient( md5( 'show-top-countries-dashboard' . $dashboard_profile_id . $start_date . $end_date ) );
-									if ( false === $top_countries_stats ) {
-										$top_countries_stats = $wp_analytify->pa_get_analytics_dashboard( 'ga:sessions', $start_date, $end_date , 'ga:country' , '-ga:sessions' , 'ga:country!=(not set)', 50 );
-										set_transient( md5( 'show-top-countries-dashboard' . $dashboard_profile_id . $start_date . $end_date ) , $top_countries_stats, 60 * 60 * 20 );
-									}
+									$top_countries_stats = $wp_analytify->pa_get_analytics_dashboard( 'ga:sessions', $start_date, $end_date , 'ga:country' , '-ga:sessions' , 'ga:country!=(not set)', 50, 'widget-show-top-countries-dashboard' );
 
-									include ANALYTIFY_DASHBOARD_ROOT_PATH . '/views/admin/top-countries-stats.php';
-									pa_include_countries_pages_stats( $wp_analytify, $top_countries_stats );
+									if ( $top_countries_stats ) {
+										include ANALYTIFY_DASHBOARD_ROOT_PATH . '/views/admin/top-countries-stats.php';
+										pa_include_countries_pages_stats( $wp_analytify, $top_countries_stats );
+									}
 
 								} else if( 'top-cities' === $stats_type ){
 
-									$top_cities_stats = get_transient( md5( 'show-top-cities-dashboard' . $dashboard_profile_id . $start_date . $end_date ) );
-									if ( false === $top_cities_stats ) {
-										$top_cities_stats = $wp_analytify->pa_get_analytics_dashboard( 'ga:sessions', $start_date, $end_date , 'ga:city' , '-ga:sessions' , 'ga:city!=(not set)', 50 );
-										set_transient( md5( 'show-top-cities-dashboard' . $dashboard_profile_id . $start_date . $end_date ) , $top_cities_stats, 60 * 60 * 20 );
-									}
+									$top_cities_stats = $wp_analytify->pa_get_analytics_dashboard( 'ga:sessions', $start_date, $end_date , 'ga:city' , '-ga:sessions' , 'ga:city!=(not set)', 50, 'widget-show-top-cities-dashboard' );
 
-									include ANALYTIFY_DASHBOARD_ROOT_PATH . '/views/admin/top-cities-stats.php';
-									pa_include_cities_stats( $wp_analytify, $top_cities_stats );
+									if ( $top_cities_stats ) {
+										include ANALYTIFY_DASHBOARD_ROOT_PATH . '/views/admin/top-cities-stats.php';
+										pa_include_cities_stats( $wp_analytify, $top_cities_stats );
+									}
 
 								} else if( 'keywords'=== $stats_type ) {
 
-									$top_keywords_stats = get_transient( md5( 'show-top-keywords-dashboard' . $dashboard_profile_id . $start_date . $end_date ) );
+									$top_keywords_stats = $wp_analytify->pa_get_analytics_dashboard(  'ga:sessions', $start_date, $end_date, 'ga:keyword', '-ga:sessions', false, 50, 'widget-show-top-keywords-dashboard' );
 
-									if ( false === $top_keywords_stats ) {
-										$top_keywords_stats = $wp_analytify->pa_get_analytics_dashboard(  'ga:sessions', $start_date, $end_date, 'ga:keyword', '-ga:sessions', false, 50 );
-										set_transient( md5( 'show-top-keywords-dashboard' . $dashboard_profile_id . $start_date . $end_date ) , $top_keywords_stats, 60 * 60 * 20 );
+									if ( $top_keywords_stats  ) {
+										include ANALYTIFY_DASHBOARD_ROOT_PATH . '/views/admin/top-keywords-stats.php';
+										pa_include_keywords_stats( $wp_analytify, $top_keywords_stats );
 									}
 
-									include ANALYTIFY_DASHBOARD_ROOT_PATH . '/views/admin/top-keywords-stats.php';
-									pa_include_keywords_stats( $wp_analytify, $top_keywords_stats );
 
 								}	else if( 'social-media' === $stats_type ) {
 
-									$top_socialmedia_stats = get_transient( md5( 'show-top-socialmedia-dashboard' . $dashboard_profile_id . $start_date . $end_date ) );
+									$top_socialmedia_stats = $wp_analytify->pa_get_analytics_dashboard( 'ga:sessions', $start_date, $end_date, 'ga:socialNetwork', '-ga:sessions', 'ga:socialNetwork!=(not set)' , 50, 'widget-show-top-socialmedia-dashboard' );
 
-									if ( false === $top_socialmedia_stats ) {
-										$top_socialmedia_stats = $wp_analytify->pa_get_analytics_dashboard( 'ga:sessions', $start_date, $end_date, 'ga:socialNetwork', '-ga:sessions', 'ga:socialNetwork!=(not set)' , 50 );
-										set_transient( md5( 'show-top-socialmedia-dashboard' . $dashboard_profile_id . $start_date . $end_date ) , $top_socialmedia_stats, 60 * 60 * 20 );
+									if ( $top_socialmedia_stats ) {
+										include ANALYTIFY_DASHBOARD_ROOT_PATH . '/views/admin/top-socialmedia-stats.php';
+										pa_include_socialmedia_stats( $wp_analytify, $top_socialmedia_stats );
 									}
-
-									include ANALYTIFY_DASHBOARD_ROOT_PATH . '/views/admin/top-socialmedia-stats.php';
-									pa_include_socialmedia_stats( $wp_analytify, $top_socialmedia_stats );
 
 								} else if( 'top-reffers' === $stats_type ) {
 
-									$top_reffers_stats = get_transient( md5( 'show-top-reffers-dashboard' . $dashboard_profile_id . $start_date . $end_date ) );
+									$top_reffers_stats = $wp_analytify->pa_get_analytics_dashboard( 'ga:sessions', $start_date, $end_date, 'ga:source,ga:medium', '-ga:sessions', false, 50, 'widget-show-top-reffers-dashboard' );
 
-									if ( false === $top_reffers_stats ) {
-										$top_reffers_stats = $wp_analytify->pa_get_analytics_dashboard( 'ga:sessions', $start_date, $end_date, 'ga:source,ga:medium', '-ga:sessions', false, 50 );
-										set_transient( md5( 'show-top-reffers-dashboard' . $dashboard_profile_id . $start_date . $end_date ) , $top_reffers_stats, 60 * 60 * 20 );
+									if ( $top_reffers_stats ) {
+										include ANALYTIFY_DASHBOARD_ROOT_PATH . '/views/admin/top-reffers-stats.php';
+										pa_include_reffers_stats( $wp_analytify, $top_reffers_stats );
 									}
-
-									include ANALYTIFY_DASHBOARD_ROOT_PATH . '/views/admin/top-reffers-stats.php';
-									pa_include_reffers_stats( $wp_analytify, $top_reffers_stats );
 
 								}
 
