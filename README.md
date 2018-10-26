@@ -1,5 +1,5 @@
 # Google Analytics Dashboard Widget by Analytify
-Contributors: hiddenpearls
+Contributors: hiddenpearls, desideveloper
 
 Donate link: https://analytify.io/
 
@@ -9,7 +9,7 @@ Requires at least: 3.0.1
 
 Tested up to: 4.9
 
-Stable tag: 1.0.8
+Stable tag: 1.1.0
 
 License: GPLv2 or later
 
@@ -84,6 +84,9 @@ First, you need to Authenticate your GA account then you can select your web pro
 1. [Google Analytics Dashboard Widget for WordPress](https://analytify.io/features/)
 
 ## Changelog
+
+### 1.1.0 - 2018-10-26 ### 
+* Enhancement: Optimized with Cache
 
 ### 1.0.8 - 2018-10-12 ###
 * Enhancement: Added French language translation.
