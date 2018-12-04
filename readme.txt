@@ -37,7 +37,7 @@ Google Analytics Dashboard widget is a Free Add-on for Google Analytics by Analy
         * ECommerce Tracking for WooCommerce (*Paid*)
         * ECommerce Tracking for Easy Digital Downloads (*Paid*)
 
-> 100% Multilingual & Translateable <br />
+> 100% Multilingual & Translatable <br />
 > WPML Compatible <br />
 
 ###### Available in Following languages:
@@ -100,7 +100,7 @@ First, you need to Authenticate your GA account then you can select your web pro
 * bugfix: deploy script assets issue fixed.
 
 = 1.0.2 =
-* bugfix: Changed text-domain for Translation mangement.
+* bugfix: Changed text-domain for Translation management.
 * bugfix: fixed issues with Translation strings.
 * Enhancement: German language.
 
