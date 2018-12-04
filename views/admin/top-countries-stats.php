@@ -27,7 +27,7 @@ function pa_include_countries_pages_stats( $current, $top_stats ) {
 							<tr>
 							  <td class="analytify_txt_center"><?php echo $i; ?></td>
 							  <td><?php echo $tstat[0]; ?></td>
-							  <td class="analytify_txt_center"><?php echo $current->wpa_number_format( $tstat[1] ); ?></td>
+							  <td class="analytify_txt_center"><?php echo number_format( $tstat[1] ); ?></td>
 							</tr>
 
 							<?php

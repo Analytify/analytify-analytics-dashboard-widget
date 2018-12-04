@@ -96,7 +96,7 @@ function pa_include_general( $current, $stats, $new_returning_stats ) {
                       echo '0';
                   }
                   else {
-                     echo $current->wpa_number_format( $stats->totalsForAllResults['ga:pageviews']);
+                     echo number_format( $stats->totalsForAllResults['ga:pageviews'] );
                   }
                   ?>
               </div>

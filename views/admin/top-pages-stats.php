@@ -28,7 +28,7 @@ function pa_include_top_pages_stats( $current, $top_page_stats) {
 							<tr>
 							  <td class="analytify_txt_center"><?php echo $i; ?></td>
 							  <td><?php echo $top_page[0]; ?></td>
-							  <td class="analytify_txt_center"><?php echo $current->wpa_number_format( $top_page[1] ); ?></td>
+							  <td class="analytify_txt_center"><?php echo number_format( $top_page[1] ); ?></td>
 							</tr>
 
 						  <?php

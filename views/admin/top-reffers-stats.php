@@ -27,7 +27,7 @@ function pa_include_reffers_stats( $current, $top_stats ) {
 							<tr>
 							  <td class="analytify_txt_center"><?php echo $i; ?></td>
 							  <td><?php echo $stat[0]; ?></td>
-							  <td class="analytify_txt_center"><?php echo $current->wpa_number_format( $stat[2] ); ?></td>
+							  <td class="analytify_txt_center"><?php echo number_format( $stat[2] ); ?></td>
 							</tr>
 
 							<?php
