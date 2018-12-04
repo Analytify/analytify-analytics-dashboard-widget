@@ -33,7 +33,8 @@ jQuery(document).ready(function($) {
         action     : 'analytify_dashboard_addon',
         startDate  : s_date,
         endDate    : en_date,
-        stats_type : stats_type
+        stats_type : stats_type,
+        nonce      : analytify_dashboard_widget.get_stats_nonce
       },
       beforeSend : function(){
         $("#inner_analytify_dashboard").addClass('stats_loading');

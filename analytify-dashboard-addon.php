@@ -21,6 +21,9 @@ if ( ! class_exists( 'Analytify_Dashboard_Addon' ) ) {
 
 		function pa_dashboard_script() {
 			wp_enqueue_script( 'analytify-dashboard-addon', plugins_url( '/assets/js/wp-analytify-dashboard.js', __FILE__ ), false, ANALYTIFY_DASHBOARD_VERSION );
+			wp_localize_script( 'analytify-dashboard-addon', 'analytify_dashboard_widget', array(
+				'get_stats_nonce' => wp_create_nonce( 'analytify-dashboard-widget-get-stats' )
+			) );
 		}
 
 
@@ -96,6 +99,9 @@ if ( ! class_exists( 'Analytify_Dashboard_Addon' ) ) {
 				* @since 1.0.0
 				*/
 				public static function analytify_general_stats() {
+
+					check_ajax_referer( 'analytify-dashboard-widget-get-stats', 'nonce' );
+
 
 					$start_date_val  = strtotime( '- 7 days' );
 					$end_date_val    = strtotime( 'now' );
