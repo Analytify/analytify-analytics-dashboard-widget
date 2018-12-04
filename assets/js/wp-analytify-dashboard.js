@@ -1,11 +1,11 @@
 jQuery(document).ready(function($) {
 
-  if(  $("#analytify-dashboard-addon-hide").is(':checked')){
+  if ($("#analytify-dashboard-addon-hide").is(':checked')) {
     ajax_request();
   }
 
   $("#analytify-dashboard-addon-hide").on('click', function(event) {
-    if($(this).is(':checked')){
+    if ($(this).is(':checked')) {
       ajax_request();
     }
   });
@@ -16,30 +16,30 @@ jQuery(document).ready(function($) {
   });
 
 
-  function ajax_request(){
+  function ajax_request() {
 
-    var  s_date = $("#analytify_start").val();
-         s_date = moment(s_date, 'MMM DD, YYYY').format("YYYY-MM-DD");
+    var s_date = $("#analytify_start").val();
+    s_date = moment(s_date, 'MMM DD, YYYY').format("YYYY-MM-DD");
 
     var en_date = $("#analytify_end").val();
-        en_date =  moment(en_date, 'MMM DD, YYYY').format("YYYY-MM-DD");
+    en_date = moment(en_date, 'MMM DD, YYYY').format("YYYY-MM-DD");
 
-    var  stats_type  = $("#analytify_dashboard_stats_type").val();
+    var stats_type = $("#analytify_dashboard_stats_type").val();
 
     jQuery.ajax({
-      url : ajaxurl,
-      type : 'post',
-      data : {
-        action     : 'analytify_dashboard_addon',
-        startDate  : s_date,
-        endDate    : en_date,
-        stats_type : stats_type,
-        nonce      : analytify_dashboard_widget.get_stats_nonce
+      url: ajaxurl,
+      type: 'post',
+      data: {
+        action    : 'analytify_dashboard_addon',
+        startDate : s_date,
+        endDate   : en_date,
+        stats_type: stats_type,
+        nonce     : analytify_dashboard_widget.get_stats_nonce
       },
-      beforeSend : function(){
+      beforeSend: function() {
         $("#inner_analytify_dashboard").addClass('stats_loading');
       },
-      success : function( response ) {
+      success: function(response) {
 
         $("#analytify_dashboard").next().remove();
         $(response).insertAfter("#analytify_dashboard");
