@@ -40,13 +40,21 @@ if ( ! class_exists( 'Analytify_Dashboard_Addon' ) ) {
 		*/
 		public function wpa_general_dashboard_area( $var, $dashboard_id ) {
 
-			$start_date_val = strtotime( '- 7 days' );
-			$end_date_val   = strtotime( 'now' );
-			$s_date         = date( 'Y-m-d', $start_date_val );
-			$ed_date        = date( 'Y-m-d', $end_date_val );
-
 			$acces_token  = get_option( 'post_analytics_token' );
 			if ( isset( $acces_token ) && ! empty( $acces_token ) && get_option( 'pa_google_token' ) ) {
+
+				$previous_date = get_option( 'analytify_dashboard_widget_date' );
+				// if previous date is stored.
+				if ( isset( $previous_date[0] ) && isset( $previous_date[1] ) ) {
+					$s_date = $previous_date[0];
+					$ed_date = $previous_date[1];
+				} else {
+					$start_date_val = strtotime( '- 7 days' );
+					$end_date_val   = strtotime( 'now' );
+					$s_date         = date( 'Y-m-d', $start_date_val );
+					$ed_date        = date( 'Y-m-d', $end_date_val );
+				}
+
 				if ( $GLOBALS['WP_ANALYTIFY']->settings->get_option( 'profile_for_dashboard', 'wp-analytify-profile', '' ) != '' ) {
 					?>
 					<div class="analytify_wraper">
@@ -109,6 +117,8 @@ if ( ! class_exists( 'Analytify_Dashboard_Addon' ) ) {
 					$end_date 		   = isset( $_POST['endDate'] )  ? $_POST['endDate'] : date( 'Y-m-d', $end_date_val );
 					$stats_type 		 = isset( $_POST['stats_type'] ) ? $_POST['stats_type'] : 'general-statistics';
 					$wp_analytify 	 = $GLOBALS['WP_ANALYTIFY'];
+
+					update_option( 'analytify_dashboard_widget_date', array( $start_date, $end_date ), false );
 
 					$acces_token  = get_option( 'post_analytics_token' );
 					if ( $acces_token ) {
