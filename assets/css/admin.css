@@ -1,47 +1,436 @@
-.wp-analytify-notification{
-  padding: 15px;
-  border-radius: 3px;
-  margin: 36px 20px 0px 0;
-  position: relative;
+/* Widget footer icon styles */
+.analytify-widget-footer-icon {
+	vertical-align: baseline;
+	margin-right: 4px;
+	width: 16px;
+	height: 14px;
 }
-.wp-analytify-notice-logo{
-  width: 34px;
-  float: left;
-  margin-right: 30px;
-  overflow: hidden;
+
+.wp-analytify-notification {
+	padding: 15px;
+	border-radius: 3px;
+	margin: 36px 20px 0 0;
+	position: relative;
 }
-.wp-analytify-notice-discription{
-  overflow: hidden;
+
+.wp-analytify-notice-logo {
+	width: 34px;
+	float: left;
+	margin-right: 30px;
+	overflow: hidden;
 }
-.wp-analytify-notification.wp-analytify-danger{
-  border:1px solid #ba7b7b;
-  background: #f7e6e6;
+
+.wp-analytify-notice-discription {
+	overflow: hidden;
 }
-.wp-analytify-notice-discription p{
-  margin: 0;
+
+.wp-analytify-notification.wp-analytify-danger {
+	border: 1px solid #ba7b7b;
+	background: #f7e6e6;
 }
-.wp-analytify-danger .wp-analytify-notice-discription p{
-  color: #592626;
+
+.wp-analytify-notice-discription p {
+	margin: 0;
 }
-.wp-analytify-notification:after{
-  content: '';
-  display: table;
-  clear: both;
+
+.wp-analytify-danger .wp-analytify-notice-discription p {
+	color: #592626;
 }
-.wp-analytify-notification .wp-analytify-notification-close{
-  text-decoration: none;
-  padding: 2px;
+
+.wp-analytify-notification::after {
+	content: "";
+	display: table;
+	clear: both;
 }
-.wp-analytify-notification.wp-analytify-danger .wp-analytify-notification-close:before{
-  color: #592626;
+
+.wp-analytify-notification .wp-analytify-notification-close {
+	text-decoration: none;
+	padding: 2px;
 }
-.wp-analytify-notification.wp-analytify-success{
-  border:1px solid #6ab074;
-  background: #e6f0e8;
+
+.wp-analytify-notification.wp-analytify-danger .wp-analytify-notification-close::before {
+	color: #592626;
 }
-.wp-analytify-success .wp-analytify-notice-discription p{
-  color: #21573a;
+
+.wp-analytify-notification.wp-analytify-success {
+	border: 1px solid #6ab074;
+	background: #e6f0e8;
 }
-.wp-analytify-notification.wp-analytify-success .wp-analytify-notification-close:before{
-  color: #21573a;
+
+.wp-analytify-success .wp-analytify-notice-discription p {
+	color: #21573a;
+}
+
+.wp-analytify-notification.wp-analytify-success .wp-analytify-notification-close::before {
+	color: #21573a;
+}
+
+.analytify-dashboard-widget-footer {
+	border-top: 1px solid #eee;
+	margin-top: 0;
+	padding: 12px 42px 0 42px;
+	color: #ddd;
+	display: flex;
+	justify-content: space-between;
+}
+
+.analytify-dashboard-widget-footer a {
+	transition-property: border, background-color, color;
+	transition-duration: 0.05s;
+	transition-timing-function: ease-in-out;
+	text-decoration: none;
+	color: #0073aa !important;
+	font-size: 13px;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+}
+
+.analytify-dashboard-widget-seprator:last-child {
+	display: none;
+}
+
+.analytify-dashboard-widget-footer a:hover {
+	color: #00a0d2 !important;
+	text-decoration: underline;
+}
+
+.analytify-dashboard-widget-footer a span {
+	vertical-align: text-bottom;
+}
+
+.analytify-dashboard-widget-footer a:hover span {
+	text-decoration: none;
+}
+
+.analytify-dashboard-widget-footer a.analytify-dashboard-widget-go-pro {
+	color: #fcb92c !important;
+	font-weight: 700;
+}
+
+#analytify-dashboard-addon .analytify_status_box_wraper {
+	border-bottom: none;
+	border-left: 0;
+	border-right: 0;
+}
+
+#analytify-dashboard-addon .analytify_info_stats {
+
+	/* margin-top: 12px; */
+
+	/* border-top: 1px solid #e2e5e8; */
+	padding-top: 2px;
+	width: auto;
+}
+
+
+.analytify_info_stats sub {
+	font-size: inherit !important;
+	font-family: inherit !important;
+	color: inherit !important;
+	top: -4px !important;
+	position: relative !important;
+}
+
+#analytify-dashboard-addon #inner_analytify_dashboard .wp_analytify_pagination {
+	float: right !important;
+	border-radius: 5px;
+}
+
+#analytify-dashboard-addon #inner_analytify_dashboard {
+	margin: 0 -12px;
+}
+
+
+#analytify-dashboard-addon #inner_analytify_dashboard:has(#analytify_chart_visitor_devices:not(:empty)):not(:has(.wpb-error-box)) {
+	min-height: 360px;
+}
+
+
+.analytify-dashboard-stats-opts {
+	margin-top: 10px;
+}
+
+#analytify_widget_connect,
+#analytify_widget_connect * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+#analytify_widget_connect a:focus {
+	outline: none;
+	-webkit-box-shadow: 0 0 0 1px #5b9dd9, 0 0 2px 1px rgba(30, 140, 190, 0.8);
+	box-shadow: 0 0 0 1px #5b9dd9, 0 0 2px 1px rgba(30, 140, 190, 0.8);
+}
+
+#analytify_widget_connect .handledfiv:focus {
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/* #analytify_widget_connect .toggle-indicator {
+  display: none;
+} */
+#analytify_widget_connect .analytify-widget-logo {
+	font-size: 16px;
+	color: #000000d1;
+	position: relative;
+	padding-left: 60px;
+	padding-top: 25px;
+	padding-bottom: 23px;
+	line-height: 1.5;
+	border-bottom: 1px solid #ccd0d4;
+}
+
+#analytify_widget_connect .analytify-widget-logo::before {
+	content: "";
+	width: 32px;
+	height: 28px;
+	background-image: url("../images/logo.svg");
+	background-size: auto 28px;
+	position: absolute;
+	left: 18px;
+	top: 22px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.analytify_general_status_boxes_wraper.analytify_real_time_stats_widget .analytify_realtime_status_boxes {
+	width: 50%;
+	margin: 0;
+	border-right: 1px solid #e2e5e8;
+	border-bottom: 1px solid #e2e5e8;
+	border-left: 0 solid #e2e5e8;
+	border-top: 0 solid #e2e5e8;
+	background: #fff;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	vertical-align: top;
+	font-size: 14px;
+	padding: 20px 8px;
+	float: left;
+}
+
+@media (max-width: 426px), (min-width: 800px) and (max-width: 924px), (min-width: 961px) and (max-width: 1049px) {
+
+	#analytify_widget_connect .analytify-widget-logo > span {
+		visibility: hidden;
+	}
+}
+
+#analytify_widget_connect .analytify-no-authed {
+	padding: 20px;
+	text-align: center;
+}
+
+#analytify_widget_connect .analytify-no-authed h2 {
+	font-size: 18px;
+	margin: 0;
+}
+
+#analytify_widget_connect .analytify-no-authed p {
+	font-size: 14px;
+	margin: 18px auto;
+	max-width: 280px;
+}
+
+#analytify_widget_connect .analytify-wgt-btn {
+	background: #000000d1;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+	padding: 16px 23px 14px;
+	text-decoration: none;
+}
+
+#analytify_widget_connect .analytify-wgt-btn:hover {
+	background: #000;
+}
+
+.analytify-dashboard-promo {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	margin: 0;
+}
+
+.analytify-dashboard-promo > div {
+	width: 50%;
+	margin: 0;
+	border-right: 1px solid #e2e5e8;
+	border-bottom: 1px solid #e2e5e8;
+	border-left: 0 solid #e2e5e8;
+	border-top: 0 solid #e2e5e8;
+	background: #fff;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	vertical-align: top;
+	font-size: 14px;
+	padding: 20px 8px;
+}
+
+.analytify-dashboard-promo > div:nth-child(even) {
+	border-right: 0;
+}
+
+.analytify-dashboard-promo > div.analytify_returning {
+	border-bottom: 0;
+}
+
+.analytify-dashboard-promo {
+	position: relative;
+}
+
+.analytify-dashboard-promo::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.analytify_general_stats_btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1000;
+	background-color: #ff5252;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: #fff;
+	text-decoration: none;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	box-shadow: 0 0 25px rgba(255, 82, 82, 0.3);
+	width: 360px;
+	max-width: calc(100% - 30px);
+}
+
+.analytify_general_stats_btn:hover {
+	color: #fff;
+}
+
+.analytify_general_stats_btn:focus {
+	box-shadow: 0 0 25px rgba(255, 82, 82, 0.3);
+	color: #fff;
+}
+
+.analytify-activation-cards {
+	text-align: center;
+	margin: 0 auto;
+	background: #fff url(../images/waves.png) no-repeat center bottom;
+	margin: -11px -12px -12px;
+}
+
+.analytify-activation-card-header {
+	padding: 18px 23px;
+	border-bottom: 1px solid #e2e5e8;
+}
+
+.analytify-activation-card-header img {
+	vertical-align: middle;
+	max-width: 135px;
+}
+
+.analytify-activation-card-body {
+	padding: 37px 70px;
+}
+
+.analytify-activation-card-body p {
+	margin: 0 0 15px;
+	font-size: 16px;
+	font-family: "Roboto", Helvetica, sans-serif;
+	color: rgb(102, 102, 102);
+	line-height: 1.375;
+}
+
+.analytify-active-card-button {
+	border-radius: 3px;
+	background: linear-gradient(to left, #448aff 50%, #2373fd 50%);
+	background-size: 200% 100%;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+	font-size: 16px;
+	font-family: "Roboto", Helvetica, sans-serif;
+	color: #fff;
+	line-height: 1.375;
+	display: inline-block;
+	padding: 6px 10px;
+	text-decoration: none;
+	background-position: right top;
+	transition: all 1s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.analytify-active-card-button:hover {
+	background-position: left top;
+	color: #fff;
+}
+
+#analytify-dashboard-addon-warning .ui-sortable-handle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 60px;
+	width: 100%;
+	z-index: 99;
+	opacity: 0;
+	box-sizing: border-box;
+}
+
+#analytify-dashboard-addon-warning .handlediv {
+	display: none;
+}
+
+#analytify-dashboard-addon-warning {
+	position: relative;
+}
+
+#analytify-dashboard-addon .ui-sortable-handle {
+
+	/* position: relative;
+	top: 0;
+	left: 0;
+	height: 60px;
+	width: 100%;
+	z-index: 99;
+	opacity:0;
+	box-sizing: border-box; */
+}
+
+/* #analytify-dashboard-addon .handlediv{
+	display: none;
+} */
+#analytify-dashboard-addon {
+	position: relative;
+}
+
+#analytify-dashboard-addon .analytify-activation-card-header {
+	text-align: center;
+	margin-bottom: 12px;
+	margin-left: -12px;
+	margin-right: -12px;
+	margin-top: -11px;
+	padding: 15px 23px;
+}
+
+#inner_analytify_dashboard .analytify_status_header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }

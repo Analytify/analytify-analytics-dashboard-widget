@@ -1,112 +1,115 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Analytify - Analytics Dashboard widget\n"
+"Project-Id-Version: Analytify - Gooogle Analytics Dashboard widget\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-20 12:23+0500\n"
-"PO-Revision-Date: 2023-06-19 18:01+0500\n"
+"PO-Revision-Date: 2023-06-19 18:02+0500\n"
 "Last-Translator: \n"
-"Language-Team: \n"
-"Language: nb\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 3.3.1\n"
 "X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: wp-analytify-dashboard.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
 "_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Loco-Version: 2.4.4; wp-5.5.3\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #: analytify-dashboard-addon.php:29 wp-analytify-dashboard.php:93
 msgid "Google Analytics Dashboard By Analytify"
-msgstr "Kontrollpanel for Google Analytics"
+msgstr "Analytify tarafından Google Analytics GöstergeTablosu"
 
 #: analytify-dashboard-addon.php:67
 msgid "View Stats"
-msgstr "Se statistikk"
+msgstr "Görüntüleme İstatistikleri"
 
 #: analytify-dashboard-addon.php:70
 msgid "Top pages"
-msgstr "Sider"
+msgstr "En iyi sayfalar"
 
 #: analytify-dashboard-addon.php:71
 msgid "Top Countries"
-msgstr "Land"
+msgstr "En iyi ülkeler"
 
 #: analytify-dashboard-addon.php:72
 msgid "Top Cities"
-msgstr "Byer"
+msgstr "En iyi şehirler"
 
 #: analytify-dashboard-addon.php:73 views/admin/top-keywords-stats.php:15
 msgid "Keywords"
-msgstr "Søkeord"
+msgstr "Anahtar Kelimeler"
 
 #: analytify-dashboard-addon.php:93
 msgid "Select a custom date"
-msgstr "Velg egendefinert dato"
+msgstr "Özel bir tarih seçin"
 
 #: analytify-dashboard-addon.php:103
 msgid "Select the Profile"
-msgstr "Velg profil"
+msgstr "Profili Seçin"
 
 #: analytify-dashboard-addon.php:106
 msgid "Connect your Google account with Analytify"
-msgstr "Koble din Google bruker til Analytify"
+msgstr "Google hesabınızı Analytify ile bağlayın"
 
 #: views/admin/general-stats.php:72
 msgid "AVERAGE PAGES"
-msgstr "Sider per økt"
+msgstr "ORTALAMA SAYFALAR"
 
 #: views/admin/top-cities-stats.php:8
 msgid "Top cities by views."
-msgstr "Byer"
+msgstr "Görüntülemeye göre en iyi şehirler"
 
 #: views/admin/top-cities-stats.php:15
 msgid "Cities"
-msgstr "Byer"
+msgstr "Şehirler"
 
 #: views/admin/top-countries-stats.php:8
 msgid "Top countries by views."
-msgstr "Land"
+msgstr "Görüntülemeye göre en iyi ülkeler."
 
 #: views/admin/top-countries-stats.php:15
 msgid "Countries"
-msgstr "Land"
+msgstr "Ülkeler"
 
 #: views/admin/top-keywords-stats.php:8
 msgid "Top keywords by views."
-msgstr "Mest brukte søkeord"
+msgstr "Görüntülemeye göre en iyi anahtar kelimeler"
 
 #: views/admin/top-reffers-stats.php:8
 msgid "Top reffers by views."
-msgstr "Henvisninger"
+msgstr "Sayfa Görüntüleme Sayısına Göre Başlıca Yönlendiriciler "
 
 #: views/admin/top-socialmedia-stats.php:8
 msgid "Top social media by views."
-msgstr "Sosiale medier"
+msgstr "Görüntülemeye göre en iyi sosyal medya"
 
 #: wp-analytify-dashboard.php:64 wp-analytify-dashboard.php:80
 msgid ""
 "Google Analytics by Analytify is required to run Google Analytics dashboard "
 "widget."
 msgstr ""
-"Google Analytics av Analytify er påkrevd for at denne utvidelsen skal "
-"fungere."
+"Analytify tarafından Google Analytics, Google Analytics gösterge tablosu "
+"widget'ını çalıştırmak için gereklidir."
 
 #: wp-analytify-dashboard.php:64
 msgid "Click here to Install Analytify(Core)"
-msgstr "Klikk her for å installere Analytify(gratisversjon)."
+msgstr "Analytify'ı kurmak için buraya tıklayın"
 
 #: wp-analytify-dashboard.php:80
 msgid "Click here to activate Analytify Core plugin."
-msgstr "Klikk her for å aktivere Analytify."
+msgstr "Analytify Core eklentisini etkinleştirmek için burayı tıklayın."
 
 #. Plugin Name of the plugin/theme
 msgid "Analytify - Gooogle Analytics Dashboard widget"
-msgstr "Analytify - Gooogle Analytics Dashboard widget"
+msgstr "Analytify - Google Analytics Gösterge Tablosu Aracı"
 
 #. Plugin URI of the plugin/theme
 msgid ""
@@ -119,83 +122,14 @@ msgid ""
 "It is a Free Add-on for Analytify plugin to show Google Analytics widget at "
 "WordPress dashboard. This is developed on the requests of our users."
 msgstr ""
-"Gratis utvidelse for Analytify som viser Google Analytics data i Wordpress "
-"kontrollpanelet. Denne utvidelsen ble utviklet etter stor etterspørsel fra "
-"våre brukere."
+"Google Analytics widget'ını WordPress gösterge tablolarında göstermek "
+"Analytify plugin için ücretsiz bir eklentidir. Bu, kullanıcılarımızın "
+"istekleri üzerine geliştirilmiştir."
 
 #. Author of the plugin/theme
 msgid "Analytify"
-msgstr ""
+msgstr "Analytify"
 
 #. Author URI of the plugin/theme
 msgid "https://analytify.io/"
 msgstr "https://analytify.io/"
-
-#~ msgid "ANALYTIFY LLC"
-#~ msgstr "ANALYTIFY LLC"
-
-#~ msgid "Select the Profie"
-#~ msgstr "Velg profil"
-
-#~ msgid "Last 30 days"
-#~ msgstr "Siste 30 dager"
-
-#~ msgid "This month"
-#~ msgstr "Denne måneden"
-
-#~ msgid "Last month"
-#~ msgstr "Siste måned"
-
-#~ msgid "Last 3 months"
-#~ msgstr "Siste 3 måneder"
-
-#~ msgid "Last 6 months"
-#~ msgstr "Siste 6 måneder"
-
-#~ msgid "Last year"
-#~ msgstr "Siste år"
-
-#~ msgid "Custom Range"
-#~ msgstr "Egendefinert intervall"
-
-#~ msgid "General Statistics"
-#~ msgstr "Generell statistikk"
-
-#~ msgid "Sessions"
-#~ msgstr "Økter"
-
-#~ msgid "visitors"
-#~ msgstr "besøkende"
-
-#~ msgid "Bounce rate"
-#~ msgstr "Fluktfrekvens"
-
-#~ msgid "Avg. time on Page"
-#~ msgstr "Gjennomsnittlig tid på siden"
-
-#~ msgid "Page views"
-#~ msgstr "Sidevisninger"
-
-#~ msgid "% New sessions"
-#~ msgstr "% nye økter"
-
-#~ msgid "New vs Returning visitors"
-#~ msgstr "Ny vs returnerende"
-
-#~ msgid "Did you know that total time on your site is"
-#~ msgstr "Den totale tiden brukt på nettsiden er"
-
-#~ msgid "Views"
-#~ msgstr "Visninger"
-
-#~ msgid "Top pages by views."
-#~ msgstr "Sider"
-
-#~ msgid "Title"
-#~ msgstr "Tittel"
-
-#~ msgid "Reffers"
-#~ msgstr "Henvisninger"
-
-#~ msgid "Social Media"
-#~ msgstr "sosiale medier"

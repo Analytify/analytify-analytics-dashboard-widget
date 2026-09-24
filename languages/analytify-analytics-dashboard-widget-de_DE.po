@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Analytify - Analytics Dashboard widget\n"
-"POT-Creation-Date: 2017-02-17 12:16+0500\n"
-"PO-Revision-Date: 2017-02-17 12:17+0500\n"
+"POT-Creation-Date: 2017-07-20 12:23+0500\n"
+"PO-Revision-Date: 2023-06-19 17:59+0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 3.3.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: wp-analytify-dashboard.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -20,43 +20,45 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: analytify-dashboard-addon.php:27 wp-analytify-dashboard.php:93
+#: analytify-dashboard-addon.php:29 wp-analytify-dashboard.php:93
 msgid "Google Analytics Dashboard By Analytify"
 msgstr "Google Analytics Dashboard von Analytify"
 
-#: analytify-dashboard-addon.php:65
+#: analytify-dashboard-addon.php:67
 msgid "View Stats"
 msgstr ""
 
-#: analytify-dashboard-addon.php:68
+#: analytify-dashboard-addon.php:70
 msgid "Top pages"
 msgstr "Top Seiten"
 
-#: analytify-dashboard-addon.php:69
+#: analytify-dashboard-addon.php:71
 msgid "Top Countries"
 msgstr "Top Länder"
 
-#: analytify-dashboard-addon.php:70
+#: analytify-dashboard-addon.php:72
 msgid "Top Cities"
 msgstr "Top Städte"
 
-#: analytify-dashboard-addon.php:71 views/admin/top-keywords-stats.php:15
+#: analytify-dashboard-addon.php:73 views/admin/top-keywords-stats.php:15
 msgid "Keywords"
 msgstr "Schlüsselwörter"
 
-#: analytify-dashboard-addon.php:91
+#: analytify-dashboard-addon.php:93
 msgid "Select a custom date"
 msgstr "Wählen Sie einen gewünschten Zeitraum aus"
 
-#: analytify-dashboard-addon.php:101
-msgid "Select the Profie"
+#: analytify-dashboard-addon.php:103
+#, fuzzy
+#| msgid "Select the Profie"
+msgid "Select the Profile"
 msgstr "Wählen Sie das Profil"
 
-#: analytify-dashboard-addon.php:104
+#: analytify-dashboard-addon.php:106
 msgid "Connect your Google account with Analytify"
 msgstr "Verbinden Sie Ihren Google Account mit Analytify"
 
-#: views/admin/general-stats.php:69
+#: views/admin/general-stats.php:72
 msgid "AVERAGE PAGES"
 msgstr "DURCHSCHNITTLICHE SEITEN"
 
@@ -124,12 +126,15 @@ msgstr ""
 "auf Anforderung von Nutzern entwickelt."
 
 #. Author of the plugin/theme
-msgid "ANALYTIFY LLC"
-msgstr "ANALYTIFY LLC"
+msgid "Analytify"
+msgstr ""
 
 #. Author URI of the plugin/theme
 msgid "https://analytify.io/"
 msgstr "https://analytify.io/"
+
+#~ msgid "ANALYTIFY LLC"
+#~ msgstr "ANALYTIFY LLC"
 
 #~ msgid "Last 30 days"
 #~ msgstr "Letzte 30 Tage"
